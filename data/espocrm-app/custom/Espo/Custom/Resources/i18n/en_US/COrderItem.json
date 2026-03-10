@@ -1,0 +1,40 @@
+{
+    "fields": {
+        "product": "Product",
+        "order": "Order",
+        "quantity": "Quantity",
+        "unitPrice": "Unit Price",
+        "unitPriceCurrency": "Unit Price (Currency)",
+        "unitPriceConverted": "Unit Price (Converted)",
+        "totalPrice": "Total Price",
+        "totalPriceCurrency": "Total Price (Currency)",
+        "totalPriceConverted": "Total Price (Converted)",
+        "productPrice": "Product Price",
+        "productNameDetail": "Product Name Detail",
+        "trackingCode": "Tracking Code",
+        "packages": "Packages",
+        "weight": "Weight (kg)",
+        "volume": "Volume (m³)",
+        "notes": "Notes",
+        "unitPriceCny": "Unit Price CNY",
+        "unitPriceCnyConverted": "Unit Price CNY Converted",
+        "unitPriceCnyCurrency": "Unit Price CNY Currency",
+        "totalPriceCny": "Total Price CNY",
+        "totalPriceCnyCurrency": "Total Price CNY (Currency)",
+        "totalPriceCnyConverted": "Total Price CNY (Converted)"
+    },
+    "links": {
+        "product": "Product",
+        "order": "Order"
+    },
+    "labels": {
+        "Create COrderItem": "Create Order Line",
+        "OrderItemOverview": "Order Item Overview",
+        "Pricing": "Pricing",
+        "Delivery": "Delivery"
+    },
+    "tooltips": {
+        "unitPriceCny": "Calcul : From Product => Price",
+        "totalPriceCny": "Calcul : Product Price x Quantity"
+    }
+}

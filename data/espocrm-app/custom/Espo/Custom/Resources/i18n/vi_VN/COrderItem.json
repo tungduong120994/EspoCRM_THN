@@ -1,0 +1,48 @@
+{
+  "fields": {
+    "product": "Sản phẩm",
+    "order": "Đơn hàng",
+    "quantity": "Số lượng",
+    "unitPrice": "Đơn giá",
+    "unitPriceCurrency": "Đơn giá (Tiền tệ)",
+    "unitPriceConverted": "Đơn giá (Quy đổi)",
+    "totalPrice": "Thành tiền",
+    "totalPriceCurrency": "Thành tiền (Tiền tệ)",
+    "totalPriceConverted": "Thành tiền (Quy đổi)",
+    "productPrice": "Giá sản phẩm",
+    "productNameDetail": "Chi tiết tên sản phẩm",
+    "trackingCode": "Mã vận đơn",
+    "packages": "Số kiện",
+    "weight": "Khối lượng (kg)",
+    "volume": "Thể tích (m³)",
+    "notes": "Ghi chú",
+    "unitDeliveryPriceVnd": "Đơn giá giao hàng VND",
+    "totalDeliveryPriceVnd": "Tổng phí giao hàng VND",
+    "unitPriceCny": "Đơn giá CNY",
+    "unitDeliveryPriceVndConverted": "Đơn giá giao hàng VND (Quy đổi)",
+    "totalDeliveryPriceVndCurrency": "Tổng phí giao hàng VND (Tiền tệ)",
+    "totalDeliveryPriceVndConverted": "Tổng phí giao hàng VND (Quy đổi)",
+    "unitDeliveryPriceVndCurrency": "Đơn giá giao hàng VND (Tiền tệ)",
+    "unitPriceCnyConverted": "Đơn giá CNY (Quy đổi)",
+    "unitPriceCnyCurrency": "Đơn giá CNY (Tiền tệ)",
+    "totalPriceCny": "Thành tiền CNY",
+    "totalPriceCnyCurrency": "Thành tiền CNY (Tiền tệ)",
+    "totalPriceCnyConverted": "Thành tiền CNY (Quy đổi)",
+    "deliveryDate": "Ngày giao hàng"
+  },
+  "links": {
+    "product": "Sản phẩm",
+    "order": "Đơn hàng"
+  },
+  "labels": {
+    "Create COrderItem": "Tạo mục đơn hàng",
+    "OrderItemOverview": "Tổng quan mục đơn",
+    "Pricing": "Giá",
+    "Delivery": "Giao hàng"
+  },
+  "tooltips": {
+    "unitPriceCny": "Công thức: từ Sản phẩm => Giá",
+    "totalPriceCny": "Công thức: Giá sản phẩm x Số lượng",
+    "totalDeliveryPriceVnd": "Công thức: Đơn giá giao hàng VND x Số lượng"
+  }
+}

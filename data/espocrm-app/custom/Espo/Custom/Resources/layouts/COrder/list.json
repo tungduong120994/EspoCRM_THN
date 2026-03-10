@@ -1,0 +1,43 @@
+[
+    {
+        "name": "name",
+        "width": 12,
+        "link": true
+    },
+    {
+        "name": "account",
+        "width": 11
+    },
+    {
+        "name": "shipment",
+        "width": 16
+    },
+    {
+        "name": "orderDate",
+        "width": 9
+    },
+    {
+        "name": "deliveryDate",
+        "width": 16
+    },
+    {
+        "name": "totalOrderValueCny",
+        "width": 11
+    },
+    {
+        "name": "totalOrderValueVnd",
+        "width": 11
+    },
+    {
+        "name": "serviceFeePercent",
+        "width": 8
+    },
+    {
+        "name": "estimatedChinaVietnamShippingFeeTotalPriceVnd",
+        "width": 11
+    },
+    {
+        "name": "grandTotalPriceVnd",
+        "width": 9
+    }
+]

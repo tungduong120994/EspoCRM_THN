@@ -1,0 +1,44 @@
+{
+    "controller": "controllers/record",
+    "boolFilterList": [
+        "onlyMy"
+    ],
+    "color": "#7f40df",
+    "iconClass": "fas fa-clipboard-list",
+    "relationshipPanels": {
+        "account": {
+            "layout": null,
+            "selectPrimaryFilterName": null
+        },
+        "contact": {
+            "layout": null,
+            "selectPrimaryFilterName": null
+        },
+        "orderItems": {
+            "layout": null,
+            "selectPrimaryFilterName": null
+        },
+        "shipment": {
+            "layout": null,
+            "selectPrimaryFilterName": null
+        }
+    },
+    "kanbanViewMode": false,
+    "recordViews": {
+        "detail": "custom:views/c-order/record/detail",
+        "list": "custom:views/c-order/record/list"
+    },
+    "detailActionList": [
+        {
+            "label": "Add Products",
+            "name": "addProducts",
+            "acl": "edit",
+            "iconClass": "fas fa-plus"
+        }
+    ],
+    "actionList": {
+        "delete": false,
+        "merge": false,
+        "convertCurrency": false
+    }
+}

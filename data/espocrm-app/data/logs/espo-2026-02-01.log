@@ -1,0 +1,12 @@
+[2026-02-01 06:30:03] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 37
+[2026-02-01 06:30:03] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 37
+[2026-02-01 06:30:56] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 37
+[2026-02-01 06:30:56] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 37
+[2026-02-01 08:47:06] ERROR: (409) Field 'importPriceCny' already exists in 'CProduct'. :: POST /Admin/fieldManager/CProduct
+[2026-02-01 09:01:33] WARNING: (400) Field validation failure; entityType: Account, field: cName, type: required. :: POST /Lead/action/convert
+[2026-02-01 09:15:51] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 37
+[2026-02-01 09:15:51] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 37
+[2026-02-01 09:22:18] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 37
+[2026-02-01 09:22:18] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 37
+[2026-02-01 11:37:50] ERROR: (2002) Uncaught Exception PDOException: "SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo for espocrm-db failed: Temporary failure in name resolution" at /var/www/html/application/Espo/ORM/PDO/MysqlPDOFactory.php line 73 :: /var/www/html/application/Espo/ORM/PDO/MysqlPDOFactory.php(73)
+[2026-02-01 11:38:00] ERROR: (2002) Uncaught Exception PDOException: "SQLSTATE[HY000] [2002] Connection refused" at /var/www/html/application/Espo/ORM/PDO/MysqlPDOFactory.php line 73 :: /var/www/html/application/Espo/ORM/PDO/MysqlPDOFactory.php(73)

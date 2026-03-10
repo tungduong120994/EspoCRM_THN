@@ -1,0 +1,16 @@
+{
+    "scopeNames": {
+        "COrder": "Order",
+        "COrderItem": "Order Line",
+        "CProduct": "Product",
+        "CShipment": "Shipment",
+        "CParcel": "Parcel"
+    },
+    "scopeNamesPlural": {
+        "COrder": "Orders",
+        "COrderItem": "Order Lines",
+        "CProduct": "Products",
+        "CShipment": "Shipments",
+        "CParcel": "Parcels"
+    }
+}

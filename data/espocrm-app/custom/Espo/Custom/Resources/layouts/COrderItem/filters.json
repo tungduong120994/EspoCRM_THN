@@ -1,0 +1,13 @@
+[
+    "order",
+    "product",
+    "trackingCode",
+    "packages",
+    "quantity",
+    "unitPriceVnd",
+    "totalPriceVnd",
+    "unitDeliveryPriceVnd",
+    "totalDeliveryPriceVnd",
+    "weight",
+    "volume"
+]

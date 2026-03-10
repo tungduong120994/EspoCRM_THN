@@ -1,0 +1,17 @@
+[
+    {
+        "name": "account"
+    },
+    {
+        "name": "order"
+    },
+    {
+        "name": ":assignedUser"
+    },
+    {
+        "name": "teams"
+    },
+    {
+        "name": "description"
+    }
+]

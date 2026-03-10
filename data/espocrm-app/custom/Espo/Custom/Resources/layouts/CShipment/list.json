@@ -1,0 +1,35 @@
+[
+    {
+        "name": "name",
+        "width": 17,
+        "link": true,
+        "align": "left"
+    },
+    {
+        "name": "account",
+        "width": 10,
+        "align": "left"
+    },
+    {
+        "name": "order",
+        "width": 10,
+        "align": "left"
+    },
+    {
+        "name": "totalDeliveryPriceVnd",
+        "width": 16
+    },
+    {
+        "name": "orderRemainingAmountVnd",
+        "width": 16
+    },
+    {
+        "name": "totalPayableAmountVnd",
+        "width": 16
+    },
+    {
+        "name": "paid",
+        "width": 5,
+        "align": "left"
+    }
+]

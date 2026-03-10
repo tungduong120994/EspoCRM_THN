@@ -1,0 +1,30 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "quantity"
+                }
+            ]
+        ],
+        "style": "info",
+        "label": "OrderItemOverview"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "unitPriceCny"
+                },
+                {
+                    "name": "totalPriceCny"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Pricing"
+    }
+]

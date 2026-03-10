@@ -1,0 +1,29 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "importPriceCny"
+                }
+            ],
+            [
+                {
+                    "name": "unitPriceCny"
+                },
+                {
+                    "name": "unit"
+                }
+            ],
+            [
+                {
+                    "name": "specification"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "ProductOverview"
+    }
+]

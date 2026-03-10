@@ -1,0 +1,40 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                false,
+                false
+            ],
+            [
+                {
+                    "name": "packageCount"
+                },
+                {
+                    "name": "weight"
+                },
+                {
+                    "name": "volume"
+                }
+            ],
+            [
+                false,
+                false,
+                {
+                    "name": "totalDeliveryPriceVnd"
+                }
+            ],
+            [
+                false,
+                false,
+                {
+                    "name": "status"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Overview"
+    }
+]

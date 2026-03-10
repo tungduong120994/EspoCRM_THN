@@ -1,0 +1,20 @@
+{
+    "fields": {
+        "cOrders": "Orders",
+        "cName": "Name",
+        "cProducts": "Products",
+        "cShipments": "Shipments",
+        "name": "ID",
+        "cParcels": "Parcels"
+    },
+    "links": {
+        "cOrders": "Orders",
+        "cProducts": "Products",
+        "cShipments": "Shipments",
+        "cParcels": "Parcels"
+    },
+    "labels": {
+        "Overview": "Overview",
+        "Details": "Details"
+    }
+}

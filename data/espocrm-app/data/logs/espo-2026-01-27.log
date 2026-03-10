@@ -1,0 +1,30 @@
+[2026-01-27 02:00:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 29
+[2026-01-27 02:00:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 29
+[2026-01-27 02:10:19] WARNING: (403) No access to scope Template. :: GET /Template/layout/listSmall :: /var/www/html/application/Espo/Tools/Layout/Service.php(106)
+[2026-01-27 02:10:28] WARNING: (403) No access to scope Template. :: GET /Template/layout/listSmall :: /var/www/html/application/Espo/Tools/Layout/Service.php(106)
+[2026-01-27 02:32:11] WARNING: (403) No access to scope Template. :: GET /Template/layout/listSmall :: /var/www/html/application/Espo/Tools/Layout/Service.php(106)
+[2026-01-27 02:32:16] WARNING: (403) No access to scope Template. :: GET /Template/layout/listSmall :: /var/www/html/application/Espo/Tools/Layout/Service.php(106)
+[2026-01-27 03:04:34] WARNING: (403) No access to scope Template. :: GET /Template/layout/listSmall :: /var/www/html/application/Espo/Tools/Layout/Service.php(106)
+[2026-01-27 03:41:46] ERROR: (409) Field 'deliveryDate' already exists in 'CShipment'. :: POST /Admin/fieldManager/CShipment
+[2026-01-27 07:50:36] WARNING: (403) No access to scope User. :: GET /User/layout/listSmall :: /var/www/html/application/Espo/Tools/Layout/Service.php(106)
+[2026-01-27 07:50:36] WARNING: (403) No access to scope User. :: GET /User/layout/filters :: /var/www/html/application/Espo/Tools/Layout/Service.php(106)
+[2026-01-27 07:50:37] WARNING: (403) No access to scope User. :: GET /User/layout/filters :: /var/www/html/application/Espo/Tools/Layout/Service.php(106)
+[2026-01-27 07:50:37] WARNING: (403) No access to scope User. :: GET /User/layout/listSmall :: /var/www/html/application/Espo/Tools/Layout/Service.php(106)
+[2026-01-27 07:50:41] WARNING: (403) No access to scope User. :: GET /User/layout/filters :: /var/www/html/application/Espo/Tools/Layout/Service.php(106)
+[2026-01-27 07:50:41] WARNING: (403) No access to scope User. :: GET /User/layout/listSmall :: /var/www/html/application/Espo/Tools/Layout/Service.php(106)
+[2026-01-27 07:50:51] WARNING: (403) No access to scope Team. :: GET /Team/layout/listSmall :: /var/www/html/application/Espo/Tools/Layout/Service.php(106)
+[2026-01-27 07:50:51] WARNING: (403) No access to scope Team. :: GET /Team/layout/filters :: /var/www/html/application/Espo/Tools/Layout/Service.php(106)
+[2026-01-27 07:50:54] WARNING: (403) No access to scope Team. :: GET /Team/layout/listSmall :: /var/www/html/application/Espo/Tools/Layout/Service.php(106)
+[2026-01-27 07:50:54] WARNING: (403) No access to scope Team. :: GET /Team/layout/filters :: /var/www/html/application/Espo/Tools/Layout/Service.php(106)
+[2026-01-27 07:50:57] WARNING: (403) No access to scope User. :: GET /User/layout/listSmall :: /var/www/html/application/Espo/Tools/Layout/Service.php(106)
+[2026-01-27 07:50:57] WARNING: (403) No access to scope User. :: GET /User/layout/filters :: /var/www/html/application/Espo/Tools/Layout/Service.php(106)
+[2026-01-27 07:50:58] WARNING: (403) No access to scope User. :: GET /User/layout/listSmall :: /var/www/html/application/Espo/Tools/Layout/Service.php(106)
+[2026-01-27 07:50:58] WARNING: (403) No access to scope User. :: GET /User/layout/filters :: /var/www/html/application/Espo/Tools/Layout/Service.php(106)
+[2026-01-27 07:52:30] WARNING: (403) No access to scope User. :: GET /User/layout/filters :: /var/www/html/application/Espo/Tools/Layout/Service.php(106)
+[2026-01-27 07:52:30] WARNING: (403) No access to scope User. :: GET /User/layout/listSmall :: /var/www/html/application/Espo/Tools/Layout/Service.php(106)
+[2026-01-27 07:52:33] WARNING: (403) No access to scope Team. :: GET /Team/layout/listSmall :: /var/www/html/application/Espo/Tools/Layout/Service.php(106)
+[2026-01-27 07:52:33] WARNING: (403) No access to scope Team. :: GET /Team/layout/filters :: /var/www/html/application/Espo/Tools/Layout/Service.php(106)
+[2026-01-27 07:54:03] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 29
+[2026-01-27 07:54:03] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 29
+[2026-01-27 07:55:15] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 29
+[2026-01-27 07:55:15] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 29

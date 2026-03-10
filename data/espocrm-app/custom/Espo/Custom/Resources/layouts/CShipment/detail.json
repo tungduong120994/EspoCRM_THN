@@ -1,0 +1,76 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "serviceType"
+                },
+                {
+                    "name": "deliveryDate"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Overview"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "totalPackages"
+                },
+                {
+                    "name": "totalWeight"
+                },
+                {
+                    "name": "totalVolume"
+                }
+            ]
+        ],
+        "style": "default",
+        "noteStyle": "info",
+        "label": ""
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "unitDeliveryPriceVnd"
+                },
+                false,
+                {
+                    "name": "totalDeliveryPriceVnd"
+                }
+            ],
+            [
+                false,
+                false,
+                {
+                    "name": "orderRemainingAmountVnd"
+                }
+            ],
+            [
+                false,
+                false,
+                {
+                    "name": "additionalAmountVnd"
+                }
+            ],
+            [
+                false,
+                {
+                    "name": "paid"
+                },
+                {
+                    "name": "totalPayableAmountVnd"
+                }
+            ]
+        ],
+        "style": "default",
+        "noteStyle": "info",
+        "label": ""
+    }
+]

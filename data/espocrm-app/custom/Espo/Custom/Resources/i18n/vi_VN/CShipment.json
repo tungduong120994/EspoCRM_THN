@@ -1,0 +1,66 @@
+{
+  "fields": {
+    "parcels": "Kiện hàng",
+    "account": "Tài khoản",
+    "order": "Đơn hàng",
+    "totalDeliveryPriceVnd": "Tổng phí giao hàng VND",
+    "deliveryDate": "Ngày giao hàng",
+    "warehouseReturnDate": "Ngày trả kho",
+    "notes": "Ghi chú",
+    "totalDeliveryPriceVndConverted": "Tổng phí giao hàng VND (Quy đổi)",
+    "totalDeliveryPriceVndCurrency": "Tổng phí giao hàng VND (Tiền tệ)",
+    "totalPackages": "Tổng số kiện",
+    "totalVolume": "Tổng thể tích (m³)",
+    "totalWeight": "Tổng khối lượng (kg)",
+    "orderRemainingAmountVnd": "Số tiền còn lại từ đơn hàng VND",
+    "orderRemainingAmountVndConverted": "Số tiền còn lại từ đơn hàng VND (Quy đổi)",
+    "orderRemainingAmountVndCurrency": "Số tiền còn lại từ đơn hàng VND (Tiền tệ)",
+    "totalPayableAmountVnd": "Tổng số phải trả VND",
+    "totalPayableAmountVndConverted": "Tổng số phải trả VND (Quy đổi)",
+    "totalPayableAmountVndCurrency": "Tổng số phải trả VND (Tiền tệ)",
+    "unitDeliveryPriceVnd": "Đơn giá giao hàng VND",
+    "unitDeliveryPriceVndCurrency": "Đơn giá giao hàng VND (Tiền tệ)",
+    "unitDeliveryPriceVndConverted": "Đơn giá giao hàng VND (Quy đổi)",
+    "serviceType": "Loại dịch vụ",
+    "paid": "Đã thanh toán",
+    "additionalAmountVnd": "Số tiền phụ trội VND",
+    "additionalAmountVndCurrency": "Số tiền phụ trội VND (Tiền tệ)",
+    "additionalAmountVndConverted": "Số tiền phụ trội VND (Quy đổi)"
+  },
+  "links": {
+    "parcels": "Kiện hàng",
+    "account": "Tài khoản",
+    "order": "Đơn hàng"
+  },
+  "labels": {
+    "Create CShipment": "Tạo lô hàng",
+    "Add Parcels": "Thêm kiện hàng",
+    "Select Parcels to Add": "Chọn kiện hàng để thêm",
+    "No parcels selected": "Chưa chọn kiện hàng nào",
+    "Parcels added successfully": "Đã thêm kiện hàng thành công",
+    "Export by Date Range": "Xuất theo khoảng thời gian",
+    "Export Shipments by Date Range": "Xuất lô hàng theo khoảng thời gian",
+    "Export from Date": "Từ ngày",
+    "Export to Date": "Đến ngày",
+    "Format": "Định dạng"
+  },
+  "messages": {
+    "Please select at least one date": "Vui lòng chọn ít nhất một ngày",
+    "Start date must be before end date": "Ngày bắt đầu phải trước ngày kết thúc"
+  },
+  "tooltips": {
+    "totalDeliveryPriceVnd": "Công thức: Tổng từ các kiện hàng",
+    "totalPackages": "Công thức: Tổng số kiện từ các kiện hàng",
+    "totalWeight": "Công thức: Tổng khối lượng từ các kiện hàng",
+    "totalVolume": "Công thức: Tổng thể tích từ các kiện hàng",
+    "orderRemainingAmountVnd": "Số tiền còn lại từ đơn hàng liên kết",
+    "totalPayableAmountVnd": "Công thức: Số tiền còn lại từ đơn hàng + Tổng phí giao hàng"
+  },
+  "options": {
+    "serviceType": {
+      "TMĐT": "TMĐT",
+      "Hàng Lô": "Hàng Lô",
+      "Chính Ngạch": "Chính Ngạch"
+    }
+  }
+}

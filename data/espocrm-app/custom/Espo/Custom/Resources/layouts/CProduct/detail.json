@@ -1,0 +1,34 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "importPriceCny"
+                }
+            ],
+            [
+                {
+                    "name": "unit"
+                },
+                {
+                    "name": "unitPriceCny"
+                }
+            ],
+            [
+                {
+                    "name": "specification"
+                }
+            ]
+        ],
+        "dynamicLogicVisible": null,
+        "style": "success",
+        "dynamicLogicStyled": null,
+        "tabBreak": false,
+        "hidden": false,
+        "noteText": null,
+        "label": "ProductOverview"
+    }
+]

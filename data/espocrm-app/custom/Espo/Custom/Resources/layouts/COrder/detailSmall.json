@@ -1,0 +1,117 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                false,
+                {
+                    "name": "orderDate"
+                }
+            ]
+        ],
+        "style": "info",
+        "label": "OrderOverview"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "totalItemsPriceCny"
+                }
+            ],
+            [
+                {
+                    "name": "domesticShippingFeeCny"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "totalOrderValueCny"
+                },
+                {
+                    "name": "exchangeRate"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "totalOrderValueVnd"
+                },
+                {
+                    "name": "serviceFeeVndPercent"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "serviceFeeVnd"
+                },
+                {
+                    "name": "totalQuantity"
+                }
+            ]
+        ],
+        "dynamicLogicVisible": null,
+        "style": "default",
+        "tabBreak": false,
+        "hidden": false,
+        "noteText": null,
+        "label": "LogisticsAndCosts"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "estimatedChinaVietnamShippingWeightKg"
+                },
+                {
+                    "name": "estimatedChinaVietnamShippingUnitPriceVnd"
+                },
+                {
+                    "name": "estimatedChinaVietnamShippingFeeTotalPriceVnd"
+                }
+            ]
+        ],
+        "style": "default",
+        "noteStyle": "info",
+        "label": "ShippingEstimate"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "additionalAmountVnd"
+                },
+                false,
+                {
+                    "name": "grandTotalPriceVnd"
+                }
+            ],
+            [
+                false,
+                false,
+                {
+                    "name": "depositAmountVnd"
+                }
+            ],
+            [
+                false,
+                false,
+                {
+                    "name": "remainingAmountVnd"
+                }
+            ]
+        ],
+        "dynamicLogicVisible": null,
+        "style": "default",
+        "tabBreak": false,
+        "tabLabel": null,
+        "hidden": false,
+        "noteText": null,
+        "noteStyle": "info",
+        "customLabel": "Total"
+    }
+]

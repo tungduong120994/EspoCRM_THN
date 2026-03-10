@@ -1,0 +1,26 @@
+{
+  "Account": {
+    "beforeSave": [
+      "Espo\\Custom\\Hooks\\Account\\AutoIncrementName"
+    ]
+  },
+  "COrderItem": {
+    "beforeSave": [
+      "Espo\\Custom\\Hooks\\COrderItem\\RecalculateOrderItem"
+    ],
+    "afterSave": [
+      "Espo\\Custom\\Hooks\\COrderItem\\RecalculateOrder"
+    ],
+    "afterRemove": [
+      "Espo\\Custom\\Hooks\\COrderItem\\RecalculateOrder"
+    ]
+  },
+  "COrder": {
+    "beforeSave": [
+      "Espo\\Custom\\Hooks\\COrder\\RecalculateOrder"
+    ],
+    "afterSave": [
+      "Espo\\Custom\\Hooks\\COrder\\RecalculateOrder"
+    ]
+  }
+}

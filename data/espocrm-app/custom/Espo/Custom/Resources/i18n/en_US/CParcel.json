@@ -1,0 +1,32 @@
+{
+    "fields": {
+        "shipment": "Shipment",
+        "name": "Tracking Code",
+        "trackingCode": "Tracking Code",
+        "weight": "Weight (KG)",
+        "volume": "Volume (M³)",
+        "packageCount": "Package Count",
+        "goodType": "Good Type",
+        "account": "Account",
+        "status": "Status",
+        "totalDeliveryPriceVnd": "Total Delivery Price Vnd",
+        "totalDeliveryPriceVndCurrency": "Total Delivery Price Vnd (Currency)",
+        "totalDeliveryPriceVndConverted": "Total Delivery Price Vnd (Converted)",
+        "notes": "Notes"
+    },
+    "links": {
+        "shipment": "Shipment",
+        "account": "Account"
+    },
+    "labels": {
+        "Create CParcel": "Create Parcel",
+        "Create Parcels": "Create Multiple Parcels"
+    },
+    "options": {
+        "status": {
+            "delivered": "Delivered",
+            "undelivered": "Undelivered",
+            "returned": "Returned"
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "controller": "controllers/record",
+    "boolFilterList": [
+        "onlyMy"
+    ],
+    "color": "#30194c",
+    "iconClass": "fas fa-boxes-stacked",
+    "relationshipPanels": {
+        "shipment": {
+            "layout": null,
+            "selectPrimaryFilterName": null
+        },
+        "account": {
+            "layout": null,
+            "selectPrimaryFilterName": null
+        }
+    },
+    "recordViews": {
+        "list": "custom:views/c-parcel/record/list"
+    }
+}

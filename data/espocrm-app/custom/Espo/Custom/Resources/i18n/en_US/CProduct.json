@@ -1,0 +1,26 @@
+{
+    "labels": {
+        "Create CProduct": "Create Product",
+        "ProductOverview": "Product Overview"
+    },
+    "fields": {
+        "orderItems": "Order Items",
+        "specification": "Specification",
+        "unit": "Unit",
+        "unitPriceCny": "Unit Price (CNY)",
+        "unitPriceCnyCurrency": "Unit Price CNY (Currency)",
+        "unitPriceCnyConverted": "Unit Price (CNY) (Converted)",
+        "notes": "Notes",
+        "importPriceCny": "Import Price CNY",
+        "importPriceCnyCurrency": "Import Price CNY (Currency)",
+        "importPriceCnyConverted": "Import Price CNY (Converted)"
+    },
+    "links": {
+        "orderItems": "Order Items"
+    },
+    "options": {
+        "unit": {
+            "PCS": "PCS"
+        }
+    }
+}

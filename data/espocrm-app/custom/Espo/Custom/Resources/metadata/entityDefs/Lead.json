@@ -1,0 +1,38 @@
+{
+    "fields": {
+        "source": {
+            "options": [
+                "",
+                "Call",
+                "Email",
+                "Existing Customer",
+                "Partner",
+                "Public Relations",
+                "Web Site",
+                "Other"
+            ],
+            "style": {
+                "": null,
+                "Call": null,
+                "Email": null,
+                "Existing Customer": null,
+                "Partner": null,
+                "Public Relations": null,
+                "Web Site": null,
+                "Other": null
+            }
+        }
+    },
+    "collection": {
+        "orderBy": "createdAt",
+        "order": "desc",
+        "textFilterFields": [
+            "name",
+            "accountName",
+            "emailAddress"
+        ],
+        "fullTextSearch": false,
+        "countDisabled": false
+    },
+    "optimisticConcurrencyControl": false
+}

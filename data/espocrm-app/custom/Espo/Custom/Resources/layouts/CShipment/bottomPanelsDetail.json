@@ -1,0 +1,13 @@
+{
+    "_delimiter_": {
+        "disabled": true
+    },
+    "_tabBreak_0": {
+        "index": 0,
+        "tabBreak": true,
+        "tabLabel": "Details"
+    },
+    "parcels": {
+        "index": 1
+    }
+}

@@ -1,0 +1,72 @@
+services:
+  espocrm-db:
+    image: mariadb:11.3
+    container_name: espocrm-db
+    restart: unless-stopped
+    environment:
+      TZ: Asia/Ho_Chi_Minh
+      MARIADB_ROOT_PASSWORD: ${MARIADB_ROOT_PASSWORD}
+      MARIADB_DATABASE: espocrm
+      MARIADB_USER: espocrm
+      MARIADB_PASSWORD: ${MARIADB_PASSWORD}
+      MARIADB_AUTO_UPGRADE: "1"
+    command: >
+      --character-set-server=utf8mb4
+      --collation-server=utf8mb4_unicode_ci
+      --max-connections=300
+    volumes:
+      - ./data/espocrm-db:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
+      interval: 20s
+      timeout: 10s
+      retries: 5
+    networks:
+      - espocrm-network
+
+  espocrm:
+    image: espocrm/espocrm:9.2.5
+    container_name: espocrm
+    restart: unless-stopped
+    depends_on:
+      espocrm-db:
+        condition: service_healthy
+    environment:
+      TZ: Asia/Ho_Chi_Minh
+      ESPOCRM_DATABASE_PLATFORM: Mysql
+      ESPOCRM_DATABASE_HOST: espocrm-db
+      ESPOCRM_DATABASE_PORT: "3306"
+      ESPOCRM_DATABASE_NAME: espocrm
+      ESPOCRM_DATABASE_USER: espocrm
+      ESPOCRM_DATABASE_PASSWORD: ${MARIADB_PASSWORD}
+      ESPOCRM_ADMIN_USERNAME: admin
+      ESPOCRM_ADMIN_PASSWORD: ${ESPOCRM_ADMIN_PASSWORD}
+      ESPOCRM_SITE_URL: "https://crm.thnglobal.vn"
+      ESPOCRM_REWRITE_BASE: "/"
+      ESPOCRM_DEFAULT_LOCALE: fr_FR
+      ESPOCRM_DEFAULT_TIMEZONE: Asia/Ho_Chi_Minh
+      ESPOCRM_ALLOW_PUBLIC_REGISTRATION: "false"
+      ESPOCRM_CONFIG_USE_WEB_SOCKET: "false"
+      PHP_MEMORY_LIMIT: 512M
+      PHP_MAX_EXECUTION_TIME: "180"
+    volumes:
+      - ./data/espocrm-app:/var/www/html
+    labels:
+      - traefik.enable=true
+      - traefik.http.routers.espocrm.rule=Host(`crm.thnglobal.vn`)
+      - traefik.http.routers.espocrm.entrypoints=websecure
+      - traefik.http.routers.espocrm.tls=true
+      - traefik.http.routers.espocrm.tls.certresolver=le
+      - traefik.http.services.espocrm.loadbalancer.server.port=80
+      - traefik.http.services.espocrm.loadbalancer.healthcheck.path=/
+      - traefik.http.services.espocrm.loadbalancer.healthcheck.interval=10s
+      - traefik.docker.network=thn-network
+    networks:
+      - thn-network
+      - espocrm-network
+
+networks:
+  thn-network:
+    external: true
+  espocrm-network:
+    driver: bridge

@@ -1,0 +1,14 @@
+{
+    "options": {
+        "source": {
+            "": "",
+            "Call": "Advertising",
+            "Email": "Hotline/call",
+            "Existing Customer": "Existing Customer",
+            "Partner": "Found by sales",
+            "Public Relations": "Reference ",
+            "Web Site": "Web Site",
+            "Other": "Other"
+        }
+    }
+}

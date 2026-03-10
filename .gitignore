@@ -1,0 +1,32 @@
+# --- Các thư mục tạm và Cache (Bắt buộc chặn) ---
+data/cache/*
+data/upload/*
+data/logs/*
+data/tmp/*
+data/espocrm-db/*
+
+# --- Cấu hình cá nhân (KHÔNG ĐƯỢC commit file này) ---
+# File này chứa thông tin kết nối Database và mật khẩu hệ thống
+data/config.php
+
+# --- Các file tùy chỉnh nội bộ ---
+# Nếu bạn không muốn đồng bộ các tùy chỉnh riêng biệt của instance này
+data/custom/
+# Hoặc nếu bạn muốn giữ code custom nhưng chặn file config của nó:
+# data/custom/config.php
+
+# --- Composer & Dependencies ---
+
+# --- Backup và Xuất dữ liệu ---
+data/backup/*
+# data/rebuild/* (Tùy chọn nếu bạn muốn chặn file rebuild)
+
+# --- Hệ điều hành và IDE ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# --- File môi trường (Nếu bạn dùng thêm thư viện ngoài) ---
+.env

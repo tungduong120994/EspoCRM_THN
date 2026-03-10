@@ -1,0 +1,88 @@
+[2025-12-26 01:49:35] ERROR: (2002) Uncaught Exception PDOException: "SQLSTATE[HY000] [2002] Connection refused" at /var/www/html/application/Espo/ORM/PDO/MysqlPDOFactory.php line 73 :: /var/www/html/application/Espo/ORM/PDO/MysqlPDOFactory.php(73)
+[2025-12-26 04:00:43] WARNING: (404) Attachment not found. :: GET / :: /var/www/html/application/Espo/EntryPoints/Attachment.php(66)
+[2025-12-26 04:00:43] WARNING: (404) Attachment not found. :: GET / :: /var/www/html/application/Espo/EntryPoints/Attachment.php(66)
+[2025-12-26 04:00:50] WARNING: E_WARNING: DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 44
+[2025-12-26 04:00:50] WARNING: E_WARNING: DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 44
+[2025-12-26 04:04:07] WARNING: E_WARNING: DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 44
+[2025-12-26 04:04:07] WARNING: E_WARNING: DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 44
+[2025-12-26 04:04:52] WARNING: E_WARNING: DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 44
+[2025-12-26 04:04:52] WARNING: E_WARNING: DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 44
+[2025-12-26 04:09:00] WARNING: (404) Attachment not found. :: GET / :: /var/www/html/application/Espo/EntryPoints/Attachment.php(66)
+[2025-12-26 04:09:34] WARNING: (404) Attachment not found. :: GET / :: /var/www/html/application/Espo/EntryPoints/Attachment.php(66)
+[2025-12-26 04:09:34] WARNING: (404) Attachment not found. :: GET / :: /var/www/html/application/Espo/EntryPoints/Attachment.php(66)
+[2025-12-26 04:09:44] WARNING: E_WARNING: DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 2
+[2025-12-26 04:09:44] WARNING: E_WARNING: DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 2
+[2025-12-26 04:15:55] WARNING: (404) Attachment not found. :: GET / :: /var/www/html/application/Espo/EntryPoints/Attachment.php(66)
+[2025-12-26 04:15:59] WARNING: (404) Attachment not found. :: GET / :: /var/www/html/application/Espo/EntryPoints/Attachment.php(66)
+[2025-12-26 04:16:22] WARNING: (404) Attachment not found. :: GET / :: /var/www/html/application/Espo/EntryPoints/Attachment.php(66)
+[2025-12-26 04:16:22] WARNING: (404) Attachment not found. :: GET / :: /var/www/html/application/Espo/EntryPoints/Attachment.php(66)
+[2025-12-26 04:16:43] WARNING: E_WARNING: DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 2
+[2025-12-26 04:16:43] WARNING: E_WARNING: DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 2
+[2025-12-26 04:17:28] WARNING: (404) Attachment not found. :: GET / :: /var/www/html/application/Espo/EntryPoints/Attachment.php(66)
+[2025-12-26 04:17:28] WARNING: (404) Attachment not found. :: GET / :: /var/www/html/application/Espo/EntryPoints/Attachment.php(66)
+[2025-12-26 04:17:28] WARNING: (404) Attachment not found. :: GET / :: /var/www/html/application/Espo/EntryPoints/Attachment.php(66)
+[2025-12-26 04:17:34] WARNING: (404) Attachment not found. :: GET / :: /var/www/html/application/Espo/EntryPoints/Attachment.php(66)
+[2025-12-26 04:17:47] WARNING: (404) Attachment not found. :: GET / :: /var/www/html/application/Espo/EntryPoints/Attachment.php(66)
+[2025-12-26 04:17:47] WARNING: (404) Attachment not found. :: GET / :: /var/www/html/application/Espo/EntryPoints/Attachment.php(66)
+[2025-12-26 04:18:08] WARNING: (404) Attachment not found. :: GET / :: /var/www/html/application/Espo/EntryPoints/Attachment.php(66)
+[2025-12-26 04:18:49] WARNING: (404) Attachment not found. :: GET / :: /var/www/html/application/Espo/EntryPoints/Attachment.php(66)
+[2025-12-26 04:19:10] WARNING: (404) Attachment not found. :: GET / :: /var/www/html/application/Espo/EntryPoints/Attachment.php(66)
+[2025-12-26 04:19:10] WARNING: (404) Attachment not found. :: GET / :: /var/www/html/application/Espo/EntryPoints/Attachment.php(66)
+[2025-12-26 04:19:24] WARNING: E_WARNING: DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 2
+[2025-12-26 04:19:24] WARNING: E_WARNING: DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 2
+[2025-12-26 04:19:37] WARNING: (404) Attachment not found. :: GET / :: /var/www/html/application/Espo/EntryPoints/Attachment.php(66)
+[2025-12-26 04:19:53] WARNING: (404) Attachment not found. :: GET / :: /var/www/html/application/Espo/EntryPoints/Attachment.php(66)
+[2025-12-26 04:19:53] WARNING: (404) Attachment not found. :: GET / :: /var/www/html/application/Espo/EntryPoints/Attachment.php(66)
+[2025-12-26 04:31:47] WARNING: (404) Attachment not found. :: GET / :: /var/www/html/application/Espo/EntryPoints/Attachment.php(66)
+[2025-12-26 04:31:57] WARNING: (404) Attachment not found. :: GET / :: /var/www/html/application/Espo/EntryPoints/Attachment.php(66)
+[2025-12-26 04:31:57] WARNING: (404) Attachment not found. :: GET / :: /var/www/html/application/Espo/EntryPoints/Attachment.php(66)
+[2025-12-26 04:32:37] WARNING: (404) Attachment not found. :: GET / :: /var/www/html/application/Espo/EntryPoints/Attachment.php(66)
+[2025-12-26 04:32:46] WARNING: (404) Attachment not found. :: GET / :: /var/www/html/application/Espo/EntryPoints/Attachment.php(66)
+[2025-12-26 04:32:52] WARNING: (404) Attachment not found. :: GET / :: /var/www/html/application/Espo/EntryPoints/Attachment.php(66)
+[2025-12-26 04:55:28] ERROR: (0) Uncaught Exception JsonException: "JSON syntax error in 'application/Espo/Resources/metadata/app/client.json'." at /var/www/html/application/Espo/Core/Utils/File/Unifier.php line 239 :: /var/www/html/application/Espo/Core/Utils/File/Unifier.php(239)
+[2025-12-26 04:55:28] ERROR: (0) Uncaught Exception JsonException: "JSON syntax error in 'application/Espo/Resources/metadata/app/client.json'." at /var/www/html/application/Espo/Core/Utils/File/Unifier.php line 239 :: /var/www/html/application/Espo/Core/Utils/File/Unifier.php(239)
+[2025-12-26 04:55:28] ERROR: (0) Uncaught Exception JsonException: "JSON syntax error in 'application/Espo/Resources/metadata/app/client.json'." at /var/www/html/application/Espo/Core/Utils/File/Unifier.php line 239 :: /var/www/html/application/Espo/Core/Utils/File/Unifier.php(239)
+[2025-12-26 04:55:29] ERROR: (0) Uncaught Exception JsonException: "JSON syntax error in 'application/Espo/Resources/metadata/app/client.json'." at /var/www/html/application/Espo/Core/Utils/File/Unifier.php line 239 :: /var/www/html/application/Espo/Core/Utils/File/Unifier.php(239)
+[2025-12-26 04:55:29] ERROR: (0) Uncaught Exception JsonException: "JSON syntax error in 'application/Espo/Resources/metadata/app/client.json'." at /var/www/html/application/Espo/Core/Utils/File/Unifier.php line 239 :: /var/www/html/application/Espo/Core/Utils/File/Unifier.php(239)
+[2025-12-26 04:55:37] ERROR: (0) Uncaught Exception JsonException: "JSON syntax error in 'application/Espo/Resources/metadata/app/client.json'." at /var/www/html/application/Espo/Core/Utils/File/Unifier.php line 239 :: /var/www/html/application/Espo/Core/Utils/File/Unifier.php(239)
+[2025-12-26 04:55:40] ERROR: (0) Uncaught Exception JsonException: "JSON syntax error in 'application/Espo/Resources/metadata/app/client.json'." at /var/www/html/application/Espo/Core/Utils/File/Unifier.php line 239 :: /var/www/html/application/Espo/Core/Utils/File/Unifier.php(239)
+[2025-12-26 04:55:47] ERROR: (0) Uncaught Exception JsonException: "JSON syntax error in 'application/Espo/Resources/metadata/app/client.json'." at /var/www/html/application/Espo/Core/Utils/File/Unifier.php line 239 :: /var/www/html/application/Espo/Core/Utils/File/Unifier.php(239)
+[2025-12-26 04:55:57] ERROR: (0) Uncaught Exception JsonException: "JSON syntax error in 'application/Espo/Resources/metadata/app/client.json'." at /var/www/html/application/Espo/Core/Utils/File/Unifier.php line 239 :: /var/www/html/application/Espo/Core/Utils/File/Unifier.php(239)
+[2025-12-26 04:56:07] ERROR: (0) Uncaught Exception JsonException: "JSON syntax error in 'application/Espo/Resources/metadata/app/client.json'." at /var/www/html/application/Espo/Core/Utils/File/Unifier.php line 239 :: /var/www/html/application/Espo/Core/Utils/File/Unifier.php(239)
+[2025-12-26 04:56:17] ERROR: (0) Uncaught Exception JsonException: "JSON syntax error in 'application/Espo/Resources/metadata/app/client.json'." at /var/www/html/application/Espo/Core/Utils/File/Unifier.php line 239 :: /var/www/html/application/Espo/Core/Utils/File/Unifier.php(239)
+[2025-12-26 04:56:27] ERROR: (0) Uncaught Exception JsonException: "JSON syntax error in 'application/Espo/Resources/metadata/app/client.json'." at /var/www/html/application/Espo/Core/Utils/File/Unifier.php line 239 :: /var/www/html/application/Espo/Core/Utils/File/Unifier.php(239)
+[2025-12-26 04:56:37] ERROR: (0) Uncaught Exception JsonException: "JSON syntax error in 'application/Espo/Resources/metadata/app/client.json'." at /var/www/html/application/Espo/Core/Utils/File/Unifier.php line 239 :: /var/www/html/application/Espo/Core/Utils/File/Unifier.php(239)
+[2025-12-26 04:56:47] ERROR: (0) Uncaught Exception JsonException: "JSON syntax error in 'application/Espo/Resources/metadata/app/client.json'." at /var/www/html/application/Espo/Core/Utils/File/Unifier.php line 239 :: /var/www/html/application/Espo/Core/Utils/File/Unifier.php(239)
+[2025-12-26 04:56:57] ERROR: (0) Uncaught Exception JsonException: "JSON syntax error in 'application/Espo/Resources/metadata/app/client.json'." at /var/www/html/application/Espo/Core/Utils/File/Unifier.php line 239 :: /var/www/html/application/Espo/Core/Utils/File/Unifier.php(239)
+[2025-12-26 04:57:07] ERROR: (0) Uncaught Exception JsonException: "JSON syntax error in 'application/Espo/Resources/metadata/app/client.json'." at /var/www/html/application/Espo/Core/Utils/File/Unifier.php line 239 :: /var/www/html/application/Espo/Core/Utils/File/Unifier.php(239)
+[2025-12-26 04:57:17] ERROR: (0) Uncaught Exception JsonException: "JSON syntax error in 'application/Espo/Resources/metadata/app/client.json'." at /var/www/html/application/Espo/Core/Utils/File/Unifier.php line 239 :: /var/www/html/application/Espo/Core/Utils/File/Unifier.php(239)
+[2025-12-26 04:57:27] ERROR: (0) Uncaught Exception JsonException: "JSON syntax error in 'application/Espo/Resources/metadata/app/client.json'." at /var/www/html/application/Espo/Core/Utils/File/Unifier.php line 239 :: /var/www/html/application/Espo/Core/Utils/File/Unifier.php(239)
+[2025-12-26 04:57:37] ERROR: (0) Uncaught Exception JsonException: "JSON syntax error in 'application/Espo/Resources/metadata/app/client.json'." at /var/www/html/application/Espo/Core/Utils/File/Unifier.php line 239 :: /var/www/html/application/Espo/Core/Utils/File/Unifier.php(239)
+[2025-12-26 04:57:47] ERROR: (0) Uncaught Exception JsonException: "JSON syntax error in 'application/Espo/Resources/metadata/app/client.json'." at /var/www/html/application/Espo/Core/Utils/File/Unifier.php line 239 :: /var/www/html/application/Espo/Core/Utils/File/Unifier.php(239)
+[2025-12-26 04:57:57] ERROR: (0) Uncaught Exception JsonException: "JSON syntax error in 'application/Espo/Resources/metadata/app/client.json'." at /var/www/html/application/Espo/Core/Utils/File/Unifier.php line 239 :: /var/www/html/application/Espo/Core/Utils/File/Unifier.php(239)
+[2025-12-26 04:58:07] ERROR: (0) Uncaught Exception JsonException: "JSON syntax error in 'application/Espo/Resources/metadata/app/client.json'." at /var/www/html/application/Espo/Core/Utils/File/Unifier.php line 239 :: /var/www/html/application/Espo/Core/Utils/File/Unifier.php(239)
+[2025-12-26 04:58:17] ERROR: (0) Uncaught Exception JsonException: "JSON syntax error in 'application/Espo/Resources/metadata/app/client.json'." at /var/www/html/application/Espo/Core/Utils/File/Unifier.php line 239 :: /var/www/html/application/Espo/Core/Utils/File/Unifier.php(239)
+[2025-12-26 04:58:27] ERROR: (0) Uncaught Exception JsonException: "JSON syntax error in 'application/Espo/Resources/metadata/app/client.json'." at /var/www/html/application/Espo/Core/Utils/File/Unifier.php line 239 :: /var/www/html/application/Espo/Core/Utils/File/Unifier.php(239)
+[2025-12-26 04:58:37] ERROR: (0) Uncaught Exception JsonException: "JSON syntax error in 'application/Espo/Resources/metadata/app/client.json'." at /var/www/html/application/Espo/Core/Utils/File/Unifier.php line 239 :: /var/www/html/application/Espo/Core/Utils/File/Unifier.php(239)
+[2025-12-26 04:58:47] ERROR: (0) Uncaught Exception JsonException: "JSON syntax error in 'application/Espo/Resources/metadata/app/client.json'." at /var/www/html/application/Espo/Core/Utils/File/Unifier.php line 239 :: /var/www/html/application/Espo/Core/Utils/File/Unifier.php(239)
+[2025-12-26 05:06:58] WARNING: (404) Attachment not found. :: GET / :: /var/www/html/application/Espo/EntryPoints/Attachment.php(66)
+[2025-12-26 05:06:58] WARNING: (404) Attachment not found. :: GET / :: /var/www/html/application/Espo/EntryPoints/Attachment.php(66)
+[2025-12-26 05:07:30] WARNING: E_WARNING: DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 18
+[2025-12-26 05:07:30] WARNING: E_WARNING: DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 18
+[2025-12-26 05:07:45] WARNING: (404) Attachment not found. :: GET / :: /var/www/html/application/Espo/EntryPoints/Attachment.php(66)
+[2025-12-26 05:08:56] WARNING: (404) Attachment not found. :: GET / :: /var/www/html/application/Espo/EntryPoints/Attachment.php(66)
+[2025-12-26 05:08:56] WARNING: (404) Attachment not found. :: GET / :: /var/www/html/application/Espo/EntryPoints/Attachment.php(66)
+[2025-12-26 05:11:08] WARNING: (404) Attachment not found. :: GET / :: /var/www/html/application/Espo/EntryPoints/Attachment.php(66)
+[2025-12-26 05:11:14] WARNING: (404) Attachment not found. :: GET / :: /var/www/html/application/Espo/EntryPoints/Attachment.php(66)
+[2025-12-26 05:25:30] WARNING: E_WARNING: DOMDocument::loadHTML(): Opening and ending tag mismatch: div and table in Entity, line: 15
+[2025-12-26 05:25:30] WARNING: E_WARNING: DOMDocument::loadHTML(): Opening and ending tag mismatch: div and table in Entity, line: 15
+[2025-12-26 05:26:40] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 122
+[2025-12-26 05:26:40] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 122
+[2025-12-26 05:48:38] WARNING: (404) Attachment not found. :: GET / :: /var/www/html/application/Espo/EntryPoints/Attachment.php(66)
+[2025-12-26 05:48:38] WARNING: (404) Attachment not found. :: GET / :: /var/www/html/application/Espo/EntryPoints/Attachment.php(66)
+[2025-12-26 05:48:43] WARNING: (404) Attachment not found. :: GET / :: /var/www/html/application/Espo/EntryPoints/Attachment.php(66)
+[2025-12-26 05:53:58] ERROR: JobTask: Failed to run job '694e22f6390147615'. Error: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+[2025-12-26 05:53:58] CRITICAL: (HY000) Failed job 694e22f639d70a54b. SQLSTATE[HY000]: General error: 2006 MySQL server has gone away :: /var/www/html/application/Espo/ORM/Executor/DefaultSqlExecutor.php(77)
+[2025-12-26 05:53:58] ERROR: JobTask: Failed to run job '694e22f639d70a54b'. Error: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+[2025-12-26 05:53:58] ERROR: JobTask: Failed to run job '694e22f63add74461'. Error: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+[2025-12-26 05:54:08] ERROR: (2002) Uncaught Exception PDOException: "SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo for espocrm-db failed: Temporary failure in name resolution" at /var/www/html/application/Espo/ORM/PDO/MysqlPDOFactory.php line 73 :: /var/www/html/application/Espo/ORM/PDO/MysqlPDOFactory.php(73)

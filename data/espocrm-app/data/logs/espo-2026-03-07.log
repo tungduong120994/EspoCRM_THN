@@ -1,0 +1,5 @@
+[2026-03-07 08:08:18] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 37
+[2026-03-07 08:08:18] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 37
+[2026-03-07 08:46:39] WARNING: (400) Order by non-existing field 'serviceFeePercent'. :: GET /COrder :: /var/www/html/application/Espo/Core/Select/Order/Applier.php(190)
+[2026-03-07 16:56:16] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 37
+[2026-03-07 16:56:16] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 37

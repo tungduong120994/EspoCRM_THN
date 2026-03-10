@@ -1,0 +1,21 @@
+{
+    "controller": "controllers/record",
+    "boolFilterList": [
+        "onlyMy"
+    ],
+    "color": "#deeefc",
+    "iconClass": "fas fa-box",
+    "relationshipPanels": {
+        "product": {
+            "layout": null,
+            "selectPrimaryFilterName": null,
+            "selectHandler": "custom:handlers/select-related/product-by-order-account"
+        },
+        "order": {
+            "layout": null,
+            "selectPrimaryFilterName": null
+        }
+    },
+    "kanbanViewMode": false,
+    "filterList": []
+}

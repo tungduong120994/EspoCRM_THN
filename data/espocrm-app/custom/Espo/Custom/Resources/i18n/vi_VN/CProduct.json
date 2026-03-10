@@ -1,0 +1,30 @@
+{
+  "labels": {
+    "Create CProduct": "Tạo sản phẩm",
+    "ProductOverview": "Tổng quan sản phẩm"
+  },
+  "fields": {
+    "orderItems": "Mục đơn hàng",
+    "goodType": "Loại hàng",
+    "specification": "Quy cách",
+    "unit": "Đơn vị",
+    "unitPriceCny": "Đơn giá (CNY)",
+    "unitPriceCnyCurrency": "Đơn giá CNY (Tiền tệ)",
+    "unitPriceCnyConverted": "Đơn giá (CNY) (Quy đổi)",
+    "notes": "Ghi chú",
+    "account": "Tài khoản"
+  },
+  "links": {
+    "orderItems": "Mục đơn hàng",
+    "account": "Tài khoản"
+  },
+  "options": {
+    "goodType": {
+      "TMDT": "TMDT",
+      "HANG LO": "HANG LO"
+    },
+    "unit": {
+      "PCS": "PCS"
+    }
+  }
+}

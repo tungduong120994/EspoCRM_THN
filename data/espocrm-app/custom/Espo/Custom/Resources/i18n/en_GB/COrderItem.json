@@ -1,0 +1,11 @@
+{
+    "fields": {
+        "status": "Status"
+    },
+    "options": {
+        "status": {
+            "Delivered": "Delivered",
+            "Not Delivered": "Not Delivered"
+        }
+    }
+}

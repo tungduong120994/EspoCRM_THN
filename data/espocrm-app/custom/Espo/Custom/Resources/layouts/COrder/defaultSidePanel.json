@@ -1,0 +1,17 @@
+[
+    {
+        "name": "account"
+    },
+    {
+        "name": "shipment"
+    },
+    {
+        "name": "notes"
+    },
+    {
+        "name": "assignedUser"
+    },
+    {
+        "name": "teams"
+    }
+]

@@ -1,0 +1,34 @@
+{
+    "controller": "controllers/record",
+    "boolFilterList": [
+        "onlyMy"
+    ],
+    "color": "#986bc9",
+    "iconClass": "fas fa-plane",
+    "relationshipPanels": {
+        "parcels": {
+            "layout": null,
+            "selectPrimaryFilterName": null
+        },
+        "account": {
+            "layout": null,
+            "selectPrimaryFilterName": null
+        },
+        "order": {
+            "layout": null,
+            "selectPrimaryFilterName": null
+        }
+    },
+    "recordViews": {
+        "detail": "custom:views/c-shipment/record/detail",
+        "list": "custom:views/c-shipment/record/list"
+    },
+    "detailActionList": [
+        {
+            "label": "Add Parcels",
+            "name": "addParcels",
+            "acl": "edit",
+            "iconClass": "fas fa-plus"
+        }
+    ]
+}

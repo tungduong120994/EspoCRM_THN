@@ -1,0 +1,58 @@
+{
+    "links": {
+        "cOrders": {
+            "type": "hasMany",
+            "foreign": "account",
+            "entity": "COrder",
+            "audited": false,
+            "isCustom": true
+        },
+        "cProducts": {
+            "type": "hasMany",
+            "foreign": "account",
+            "entity": "CProduct",
+            "audited": false,
+            "isCustom": true
+        },
+        "cShipments": {
+            "type": "hasMany",
+            "foreign": "account",
+            "entity": "CShipment",
+            "audited": false,
+            "isCustom": true
+        },
+        "cParcels": {
+            "type": "hasMany",
+            "foreign": "account",
+            "entity": "CParcel",
+            "audited": false,
+            "isCustom": true
+        }
+    },
+    "fields": {
+        "name": {
+            "options": [],
+            "maxLength": null,
+            "required": false,
+            "readOnly": false
+        },
+        "cName": {
+            "type": "varchar",
+            "required": true,
+            "maxLength": 100,
+            "options": [],
+            "isCustom": true
+        }
+    },
+    "collection": {
+        "orderBy": "createdAt",
+        "order": "desc",
+        "textFilterFields": [
+            "name",
+            "emailAddress"
+        ],
+        "fullTextSearch": false,
+        "countDisabled": false
+    },
+    "optimisticConcurrencyControl": true
+}

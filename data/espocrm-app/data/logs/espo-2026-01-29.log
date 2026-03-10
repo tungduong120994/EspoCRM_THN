@@ -1,0 +1,121 @@
+[2026-01-29 04:48:29] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 29
+[2026-01-29 04:48:29] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 29
+[2026-01-29 04:49:32] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 29
+[2026-01-29 04:49:32] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 29
+[2026-01-29 08:58:11] WARNING: (403) No access to scope User. :: GET /User/layout/filters :: /var/www/html/application/Espo/Tools/Layout/Service.php(106)
+[2026-01-29 08:58:11] WARNING: (403) No access to scope User. :: GET /User/layout/listSmall :: /var/www/html/application/Espo/Tools/Layout/Service.php(106)
+[2026-01-29 09:08:12] WARNING: (403) No access to scope Team. :: GET /Team/layout/listSmall :: /var/www/html/application/Espo/Tools/Layout/Service.php(106)
+[2026-01-29 09:08:12] WARNING: (403) No access to scope Team. :: GET /Team/layout/filters :: /var/www/html/application/Espo/Tools/Layout/Service.php(106)
+[2026-01-29 09:27:30] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 29
+[2026-01-29 09:27:30] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 29
+[2026-01-29 09:33:37] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 29
+[2026-01-29 09:33:37] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 29
+[2026-01-29 09:40:24] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 29
+[2026-01-29 09:40:24] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 29
+[2026-01-29 10:01:34] WARNING: (403) No access to scope Template. :: GET /Template/layout/listSmall :: /var/www/html/application/Espo/Tools/Layout/Service.php(106)
+[2026-01-29 10:01:48] WARNING: (403) No access to scope Template. :: GET /Template/layout/listSmall :: /var/www/html/application/Espo/Tools/Layout/Service.php(106)
+[2026-01-29 10:02:22] WARNING: (403) No access to scope Template. :: GET /Template/layout/listSmall :: /var/www/html/application/Espo/Tools/Layout/Service.php(106)
+[2026-01-29 10:02:43] WARNING: (403) No access to scope Template. :: GET /Template/layout/listSmall :: /var/www/html/application/Espo/Tools/Layout/Service.php(106)
+[2026-01-29 10:02:49] WARNING: (403) No access to scope Template. :: GET /Template/layout/listSmall :: /var/www/html/application/Espo/Tools/Layout/Service.php(106)
+[2026-01-29 10:03:26] WARNING: (403) No access to scope Template. :: GET /Template/layout/listSmall :: /var/www/html/application/Espo/Tools/Layout/Service.php(106)
+[2026-01-29 10:04:37] WARNING: (403) No access to scope Template. :: GET /Template/layout/listSmall :: /var/www/html/application/Espo/Tools/Layout/Service.php(106)
+[2026-01-29 10:07:16] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 29
+[2026-01-29 10:07:16] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 29
+[2026-01-29 10:09:27] WARNING: (403) No access to scope Team. :: GET /Team/layout/filters :: /var/www/html/application/Espo/Tools/Layout/Service.php(106)
+[2026-01-29 10:09:27] WARNING: (403) No access to scope Team. :: GET /Team/layout/listSmall :: /var/www/html/application/Espo/Tools/Layout/Service.php(106)
+[2026-01-29 10:09:29] WARNING: (403) No access to scope Team. :: GET /Team/layout/listSmall :: /var/www/html/application/Espo/Tools/Layout/Service.php(106)
+[2026-01-29 10:09:29] WARNING: (403) No access to scope Team. :: GET /Team/layout/filters :: /var/www/html/application/Espo/Tools/Layout/Service.php(106)
+[2026-01-29 10:09:30] WARNING: (403) No access to scope Team. :: GET /Team/layout/listSmall :: /var/www/html/application/Espo/Tools/Layout/Service.php(106)
+[2026-01-29 10:09:30] WARNING: (403) No access to scope Team. :: GET /Team/layout/filters :: /var/www/html/application/Espo/Tools/Layout/Service.php(106)
+[2026-01-29 10:10:15] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 29
+[2026-01-29 10:10:15] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 29
+[2026-01-29 10:12:49] WARNING: (403) No access to scope Team. :: GET /Team/layout/filters :: /var/www/html/application/Espo/Tools/Layout/Service.php(106)
+[2026-01-29 10:12:49] WARNING: (403) No access to scope Team. :: GET /Team/layout/listSmall :: /var/www/html/application/Espo/Tools/Layout/Service.php(106)
+[2026-01-29 10:12:54] WARNING: (403) No access to scope Team. :: GET /Team/layout/listSmall :: /var/www/html/application/Espo/Tools/Layout/Service.php(106)
+[2026-01-29 10:12:54] WARNING: (403) No access to scope Team. :: GET /Team/layout/filters :: /var/www/html/application/Espo/Tools/Layout/Service.php(106)
+[2026-01-29 10:13:11] WARNING: (403) No access to scope Team. :: GET /Team/layout/filters :: /var/www/html/application/Espo/Tools/Layout/Service.php(106)
+[2026-01-29 10:13:11] WARNING: (403) No access to scope Team. :: GET /Team/layout/listSmall :: /var/www/html/application/Espo/Tools/Layout/Service.php(106)
+[2026-01-29 10:13:38] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 29
+[2026-01-29 10:13:38] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 29
+[2026-01-29 10:13:59] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 29
+[2026-01-29 10:13:59] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 29
+[2026-01-29 10:18:36] WARNING: (403) No access to scope Team. :: GET /Team/layout/listSmall :: /var/www/html/application/Espo/Tools/Layout/Service.php(106)
+[2026-01-29 10:18:36] WARNING: (403) No access to scope Team. :: GET /Team/layout/filters :: /var/www/html/application/Espo/Tools/Layout/Service.php(106)
+[2026-01-29 10:19:10] WARNING: (403) No access to scope Account. :: GET /Account/layout/filters :: /var/www/html/application/Espo/Tools/Layout/Service.php(106)
+[2026-01-29 10:19:10] WARNING: (403) No access to scope Account. :: GET /Account/layout/listSmall :: /var/www/html/application/Espo/Tools/Layout/Service.php(106)
+[2026-01-29 10:19:11] WARNING: (403) No access to scope Team. :: GET /Team/layout/filters :: /var/www/html/application/Espo/Tools/Layout/Service.php(106)
+[2026-01-29 10:19:11] WARNING: (403) No access to scope Team. :: GET /Team/layout/listSmall :: /var/www/html/application/Espo/Tools/Layout/Service.php(106)
+[2026-01-29 10:19:17] WARNING: (403) No access to scope Template. :: GET /Template/layout/listSmall :: /var/www/html/application/Espo/Tools/Layout/Service.php(106)
+[2026-01-29 10:19:21] WARNING: (403) No access to scope Team. :: GET /Team/layout/listSmall :: /var/www/html/application/Espo/Tools/Layout/Service.php(106)
+[2026-01-29 10:19:21] WARNING: (403) No access to scope Team. :: GET /Team/layout/filters :: /var/www/html/application/Espo/Tools/Layout/Service.php(106)
+[2026-01-29 10:19:29] WARNING: (403) No access to scope Account. :: GET /Account/layout/listSmall :: /var/www/html/application/Espo/Tools/Layout/Service.php(106)
+[2026-01-29 10:19:29] WARNING: (403) No access to scope Account. :: GET /Account/layout/filters :: /var/www/html/application/Espo/Tools/Layout/Service.php(106)
+[2026-01-29 10:19:33] WARNING: (403) No access to scope Account. :: GET /Account/layout/filters :: /var/www/html/application/Espo/Tools/Layout/Service.php(106)
+[2026-01-29 10:19:33] WARNING: (403) No access to scope Account. :: GET /Account/layout/listSmall :: /var/www/html/application/Espo/Tools/Layout/Service.php(106)
+[2026-01-29 10:19:36] WARNING: (403) No access to scope Team. :: GET /Team/layout/filters :: /var/www/html/application/Espo/Tools/Layout/Service.php(106)
+[2026-01-29 10:19:36] WARNING: (403) No access to scope Team. :: GET /Team/layout/listSmall :: /var/www/html/application/Espo/Tools/Layout/Service.php(106)
+[2026-01-29 10:20:04] WARNING: (403) No access to scope Account. :: GET /Account/layout/listSmall :: /var/www/html/application/Espo/Tools/Layout/Service.php(106)
+[2026-01-29 10:20:04] WARNING: (403) No access to scope Account. :: GET /Account/layout/filters :: /var/www/html/application/Espo/Tools/Layout/Service.php(106)
+[2026-01-29 10:21:26] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 29
+[2026-01-29 10:21:26] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 29
+[2026-01-29 10:23:47] WARNING: (403) Assignment failure: assigned user or team not allowed. :: POST /COrderItem :: /var/www/html/application/Espo/Core/Record/Service.php(372)
+[2026-01-29 10:23:47] WARNING: (403) Assignment failure: assigned user or team not allowed. :: POST /COrderItem :: /var/www/html/application/Espo/Core/Record/Service.php(372)
+[2026-01-29 10:23:58] WARNING: (403) No access to scope Account. :: GET /Account/layout/filters :: /var/www/html/application/Espo/Tools/Layout/Service.php(106)
+[2026-01-29 10:23:58] WARNING: (403) No access to scope Account. :: GET /Account/layout/listSmall :: /var/www/html/application/Espo/Tools/Layout/Service.php(106)
+[2026-01-29 10:24:04] WARNING: (403) Assignment failure: assigned user or team not allowed. :: POST /COrderItem :: /var/www/html/application/Espo/Core/Record/Service.php(372)
+[2026-01-29 10:24:04] WARNING: (403) Assignment failure: assigned user or team not allowed. :: POST /COrderItem :: /var/www/html/application/Espo/Core/Record/Service.php(372)
+[2026-01-29 10:24:31] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 29
+[2026-01-29 10:24:31] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 29
+[2026-01-29 10:25:06] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 29
+[2026-01-29 10:25:06] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 29
+[2026-01-29 10:25:27] WARNING: (403) Assignment failure: assigned user or team not allowed. :: POST /COrderItem :: /var/www/html/application/Espo/Core/Record/Service.php(372)
+[2026-01-29 10:25:27] WARNING: (403) Assignment failure: assigned user or team not allowed. :: POST /COrderItem :: /var/www/html/application/Espo/Core/Record/Service.php(372)
+[2026-01-29 10:26:00] WARNING: (403) Assignment failure: assigned user or team not allowed. :: POST /COrderItem :: /var/www/html/application/Espo/Core/Record/Service.php(372)
+[2026-01-29 10:26:55] WARNING: (403) No access to scope Team. :: GET /Team/layout/filters :: /var/www/html/application/Espo/Tools/Layout/Service.php(106)
+[2026-01-29 10:26:55] WARNING: (403) No access to scope Team. :: GET /Team/layout/listSmall :: /var/www/html/application/Espo/Tools/Layout/Service.php(106)
+[2026-01-29 10:32:05] WARNING: (403) Assignment failure: assigned user or team not allowed. :: POST /COrderItem :: /var/www/html/application/Espo/Core/Record/Service.php(372)
+[2026-01-29 10:32:05] WARNING: (403) Assignment failure: assigned user or team not allowed. :: POST /COrderItem :: /var/www/html/application/Espo/Core/Record/Service.php(372)
+[2026-01-29 10:33:18] WARNING: (403) Assignment failure: assigned user or team not allowed. :: POST /COrderItem :: /var/www/html/application/Espo/Core/Record/Service.php(372)
+[2026-01-29 10:33:18] WARNING: (403) Assignment failure: assigned user or team not allowed. :: POST /COrderItem :: /var/www/html/application/Espo/Core/Record/Service.php(372)
+[2026-01-29 10:33:40] WARNING: (403) Assignment failure: assigned user or team not allowed. :: POST /COrderItem :: /var/www/html/application/Espo/Core/Record/Service.php(372)
+[2026-01-29 10:33:40] WARNING: (403) Assignment failure: assigned user or team not allowed. :: POST /COrderItem :: /var/www/html/application/Espo/Core/Record/Service.php(372)
+[2026-01-29 10:35:44] WARNING: (403) No access to scope Template. :: GET /Template/layout/listSmall :: /var/www/html/application/Espo/Tools/Layout/Service.php(106)
+[2026-01-29 10:35:52] WARNING: (403) No access to scope Template. :: GET /Template/layout/listSmall :: /var/www/html/application/Espo/Tools/Layout/Service.php(106)
+[2026-01-29 10:36:25] WARNING: (403) No access to scope Template. :: GET /Template/layout/listSmall :: /var/www/html/application/Espo/Tools/Layout/Service.php(106)
+[2026-01-29 10:38:09] WARNING: (403) No access to scope Template. :: GET /Template/layout/listSmall :: /var/www/html/application/Espo/Tools/Layout/Service.php(106)
+[2026-01-29 10:42:11] WARNING: (403) No access to scope Template. :: GET /Template/layout/listSmall :: /var/www/html/application/Espo/Tools/Layout/Service.php(106)
+[2026-01-29 10:48:31] WARNING: (403) Assignment failure: assigned user or team not allowed. :: POST /COrderItem :: /var/www/html/application/Espo/Core/Record/Service.php(372)
+[2026-01-29 10:48:31] WARNING: (403) Assignment failure: assigned user or team not allowed. :: POST /COrderItem :: /var/www/html/application/Espo/Core/Record/Service.php(372)
+[2026-01-29 10:48:49] WARNING: (403) Assignment failure: assigned user or team not allowed. :: POST /COrderItem :: /var/www/html/application/Espo/Core/Record/Service.php(372)
+[2026-01-29 10:48:49] WARNING: (403) Assignment failure: assigned user or team not allowed. :: POST /COrderItem :: /var/www/html/application/Espo/Core/Record/Service.php(372)
+[2026-01-29 10:49:43] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 29
+[2026-01-29 10:49:43] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 29
+[2026-01-29 10:50:13] WARNING: (403) Assignment failure: assigned user or team not allowed. :: POST /COrderItem :: /var/www/html/application/Espo/Core/Record/Service.php(372)
+[2026-01-29 10:50:13] WARNING: (403) Assignment failure: assigned user or team not allowed. :: POST /COrderItem :: /var/www/html/application/Espo/Core/Record/Service.php(372)
+[2026-01-29 10:52:15] WARNING: (403) Assignment failure: assigned user or team not allowed. :: POST /COrderItem :: /var/www/html/application/Espo/Core/Record/Service.php(372)
+[2026-01-29 10:52:15] WARNING: (403) Assignment failure: assigned user or team not allowed. :: POST /COrderItem :: /var/www/html/application/Espo/Core/Record/Service.php(372)
+[2026-01-29 10:53:35] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 29
+[2026-01-29 10:53:35] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 29
+[2026-01-29 13:21:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 29
+[2026-01-29 13:21:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 29
+[2026-01-29 13:42:16] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 29
+[2026-01-29 13:42:16] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 29
+[2026-01-29 13:50:26] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 29
+[2026-01-29 13:50:26] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 29
+[2026-01-29 13:51:43] WARNING: (403) Assignment failure: assigned user or team not allowed. :: POST /COrderItem :: /var/www/html/application/Espo/Core/Record/Service.php(372)
+[2026-01-29 13:51:55] WARNING: (403) Assignment failure: assigned user or team not allowed. :: POST /COrderItem :: /var/www/html/application/Espo/Core/Record/Service.php(372)
+[2026-01-29 13:52:33] WARNING: (403) Assignment failure: assigned user or team not allowed. :: POST /COrderItem :: /var/www/html/application/Espo/Core/Record/Service.php(372)
+[2026-01-29 18:04:51] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 37
+[2026-01-29 18:04:51] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 37
+[2026-01-29 18:08:36] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 37
+[2026-01-29 18:08:36] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 37
+[2026-01-29 18:09:49] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 37
+[2026-01-29 18:09:49] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 37
+[2026-01-29 18:10:57] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 37
+[2026-01-29 18:10:57] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 37
+[2026-01-29 18:12:29] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 37
+[2026-01-29 18:12:29] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 37
+[2026-01-29 18:17:09] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 37
+[2026-01-29 18:17:09] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 37
+[2026-01-29 18:30:01] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 37
+[2026-01-29 18:30:01] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 37

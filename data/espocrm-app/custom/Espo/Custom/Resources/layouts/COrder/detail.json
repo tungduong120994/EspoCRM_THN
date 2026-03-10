@@ -1,0 +1,120 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                false,
+                {
+                    "name": "orderDate"
+                }
+            ]
+        ],
+        "style": "info",
+        "label": "OrderOverview"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "totalItemsPriceCny"
+                }
+            ],
+            [
+                {
+                    "name": "domesticShippingFeeCny"
+                },
+                false,
+                false
+            ],
+            [
+                {
+                    "name": "totalOrderValueCny"
+                },
+                {
+                    "name": "exchangeRate"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "totalOrderValueVnd"
+                },
+                false,
+                false
+            ],
+            [
+                {
+                    "name": "serviceFeeVndPercent"
+                },
+                {
+                    "name": "serviceFeeVnd"
+                },
+                false
+            ]
+        ],
+        "dynamicLogicVisible": null,
+        "style": "default",
+        "tabBreak": false,
+        "hidden": false,
+        "noteText": null,
+        "customLabel": "Logistics"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "estimatedChinaVietnamShippingWeightKg"
+                },
+                {
+                    "name": "estimatedChinaVietnamShippingUnitPriceVnd"
+                },
+                {
+                    "name": "estimatedChinaVietnamShippingFeeTotalPriceVnd"
+                }
+            ]
+        ],
+        "dynamicLogicVisible": null,
+        "style": "default",
+        "tabBreak": false,
+        "hidden": false,
+        "noteText": null,
+        "noteStyle": "info",
+        "customLabel": "China-Vietnam Shipping"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "additionalAmountVnd"
+                },
+                false,
+                {
+                    "name": "grandTotalPriceVnd"
+                }
+            ],
+            [
+                false,
+                false,
+                {
+                    "name": "depositAmountVnd"
+                }
+            ],
+            [
+                false,
+                false,
+                {
+                    "name": "remainingAmountVnd"
+                }
+            ]
+        ],
+        "dynamicLogicVisible": null,
+        "style": "default",
+        "tabBreak": false,
+        "hidden": false,
+        "noteText": null,
+        "noteStyle": "info",
+        "customLabel": "Total"
+    }
+]

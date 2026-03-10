@@ -1,0 +1,26 @@
+[
+    {
+        "name": "name",
+        "link": true
+    },
+    {
+        "name": "account",
+        "width": 16
+    },
+    {
+        "name": "importPriceCny",
+        "width": 16
+    },
+    {
+        "name": "unitPriceCny",
+        "width": 16
+    },
+    {
+        "name": "unit",
+        "width": 12
+    },
+    {
+        "name": "specification",
+        "width": 20
+    }
+]

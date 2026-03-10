@@ -1,0 +1,28 @@
+[
+    {
+        "name": "name",
+        "width": 15,
+        "link": true,
+        "align": "left"
+    },
+    {
+        "name": "account",
+        "width": 15,
+        "align": "left"
+    },
+    {
+        "name": "shipment",
+        "width": 15,
+        "align": "left"
+    },
+    {
+        "name": "notes",
+        "width": 30,
+        "align": "left"
+    },
+    {
+        "name": "status",
+        "width": 10,
+        "align": "right"
+    }
+]

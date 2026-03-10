@@ -1,0 +1,12 @@
+{
+    "fields": {
+        "name": "ID",
+        "cName": "Name",
+        "cProducts": "Products",
+        "cXXXXs": "X XXXs"
+    },
+    "links": {
+        "cProducts": "Products",
+        "cXXXXs": "X XXXs"
+    }
+}

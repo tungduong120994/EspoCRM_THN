@@ -1,0 +1,24 @@
+[
+    {
+        "name": "name",
+        "width": 20,
+        "link": true,
+        "align": "left"
+    },
+    {
+        "name": "product",
+        "width": 18
+    },
+    {
+        "name": "unitPriceCny",
+        "width": 20
+    },
+    {
+        "name": "quantity",
+        "width": 20
+    },
+    {
+        "name": "totalPriceCny",
+        "width": 20
+    }
+]

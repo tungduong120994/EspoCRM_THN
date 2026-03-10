@@ -1,0 +1,8 @@
+{
+    "fields": {
+        "cOrders": "Orders"
+    },
+    "links": {
+        "cOrders": "Orders"
+    }
+}

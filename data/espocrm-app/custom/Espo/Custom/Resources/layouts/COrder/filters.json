@@ -1,0 +1,14 @@
+[
+    "account",
+    "contact",
+    "assignedUser",
+    "paymentStatus",
+    "orderDate",
+    "deliveryDate",
+    "warehouseReturnDate",
+    "totalQuantity",
+    "totalOrderValueCny",
+    "serviceFeeVndPercent",
+    "totalOrderValueVnd",
+    "totalPrice"
+]

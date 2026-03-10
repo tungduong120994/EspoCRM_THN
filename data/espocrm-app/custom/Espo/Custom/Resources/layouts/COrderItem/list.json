@@ -1,0 +1,26 @@
+[
+    {
+        "name": "name",
+        "width": 16
+    },
+    {
+        "name": "order",
+        "width": 12
+    },
+    {
+        "name": "product",
+        "width": 14
+    },
+    {
+        "name": "trackingCode",
+        "width": 12
+    },
+    {
+        "name": "totalDeliveryPriceVnd",
+        "width": 10
+    },
+    {
+        "name": "totalPriceCny",
+        "width": 16
+    }
+]

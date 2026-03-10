@@ -1,0 +1,66 @@
+{
+    "fields": {
+        "parcels": "Parcels",
+        "account": "Account",
+        "order": "Order",
+        "totalDeliveryPriceVnd": "Total Delivery Price VND",
+        "deliveryDate": "Delivery Date",
+        "warehouseReturnDate": "Warehouse Return Date",
+        "notes": "Notes",
+        "totalDeliveryPriceVndConverted": "Total Delivery Price VND (Converted)",
+        "totalDeliveryPriceVndCurrency": "Total Delivery Price VND (Currency)",
+        "totalPackages": "Total Packages",
+        "totalVolume": "Total Volume M³",
+        "totalWeight": "Total Weight KG",
+        "orderRemainingAmountVnd": "Order Remaining Amount VND",
+        "orderRemainingAmountVndConverted": "Order Remaining Amount VND (Converted)",
+        "orderRemainingAmountVndCurrency": "Order Remaining Amount VND (Currency)",
+        "totalPayableAmountVnd": "Total Payable Amount VND",
+        "totalPayableAmountVndConverted": "Total Payable Amount VND (Converted)",
+        "totalPayableAmountVndCurrency": "Total Payable Amount VND (Currency)",
+        "unitDeliveryPriceVnd": "Unit Delivery Price Vnd",
+        "unitDeliveryPriceVndCurrency": "Unit Delivery Price Vnd (Currency)",
+        "unitDeliveryPriceVndConverted": "Unit Delivery Price Vnd (Converted)",
+        "serviceType": "Service Type",
+        "paid": "Paid",
+        "additionalAmountVnd": "Additional Amount Vnd",
+        "additionalAmountVndCurrency": "Additional Amount Vnd (Currency)",
+        "additionalAmountVndConverted": "Additional Amount Vnd (Converted)"
+    },
+    "links": {
+        "parcels": "Parcels",
+        "account": "Account",
+        "order": "Order"
+    },
+    "labels": {
+        "Create CShipment": "Create Shipment",
+        "Add Parcels": "Add Parcels",
+        "Select Parcels to Add": "Select Parcels to Add",
+        "No parcels selected": "No parcels selected",
+        "Parcels added successfully": "Parcels added successfully",
+        "Export by Date Range": "Export by Date Range",
+        "Export Shipments by Date Range": "Export Shipments by Date Range",
+        "Export from Date": "From Date",
+        "Export to Date": "To Date",
+        "Format": "Format"
+    },
+    "messages": {
+        "Please select at least one date": "Please select at least one date",
+        "Start date must be before end date": "Start date must be before end date"
+    },
+    "tooltips": {
+        "totalDeliveryPriceVnd": "Formula: Sum from all parcels",
+        "totalPackages": "Formula: Total packages from all parcels",
+        "totalWeight": "Formula: Total weight from all parcels",
+        "totalVolume": "Formula: Total volume from all parcels",
+        "orderRemainingAmountVnd": "Remaining amount from linked order",
+        "totalPayableAmountVnd": "Formula: Order Remaining Amount + Total Delivery Price"
+    },
+    "options": {
+        "serviceType": {
+            "TMĐT": "TMĐT",
+            "Hàng Lô": "Hàng Lô",
+            "Chính Ngạch": "Chính Ngạch"
+        }
+    }
+}

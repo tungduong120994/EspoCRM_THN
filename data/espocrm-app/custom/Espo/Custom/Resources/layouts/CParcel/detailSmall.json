@@ -1,0 +1,45 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                false,
+                false
+            ],
+            [
+                {
+                    "name": "packageCount"
+                },
+                {
+                    "name": "weight"
+                },
+                {
+                    "name": "volume"
+                }
+            ],
+            [
+                false,
+                false,
+                {
+                    "name": "totalDeliveryPriceVnd"
+                }
+            ],
+            [
+                false,
+                false,
+                {
+                    "name": "status"
+                }
+            ]
+        ],
+        "dynamicLogicVisible": null,
+        "style": "default",
+        "dynamicLogicStyled": null,
+        "tabBreak": false,
+        "hidden": false,
+        "noteText": null,
+        "customLabel": "Overview"
+    }
+]

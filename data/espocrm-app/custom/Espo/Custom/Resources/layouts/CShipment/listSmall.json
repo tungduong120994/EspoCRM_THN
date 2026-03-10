@@ -1,0 +1,10 @@
+[
+    {
+        "name": "name",
+        "link": true
+    },
+    {
+        "name": "paid",
+        "width": 20
+    }
+]

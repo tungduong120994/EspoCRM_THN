@@ -1,0 +1,29 @@
+{
+    "controller": "controllers/record",
+    "boolFilterList": [
+        "onlyMy"
+    ],
+    "color": "#4dc187",
+    "iconClass": "fas fa-cube",
+    "relationshipPanels": {
+        "orderItems": {
+            "layout": null,
+            "selectPrimaryFilterName": null
+        },
+        "account": {
+            "layout": null,
+            "selectPrimaryFilterName": null
+        }
+    },
+    "recordViews": {
+        "detail": "custom:views/c-product/record/detail"
+    },
+    "detailActionList": [
+        {
+            "label": "Create Order",
+            "name": "addToOrder",
+            "acl": "edit"
+        }
+    ],
+    "kanbanViewMode": false
+}
