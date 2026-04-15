@@ -1,2 +1,0 @@
-[2026-01-08 04:31:58] ERROR: (2002) Uncaught Exception PDOException: "SQLSTATE[HY000] [2002] Connection refused" at /var/www/html/application/Espo/ORM/PDO/MysqlPDOFactory.php line 73 :: /var/www/html/application/Espo/ORM/PDO/MysqlPDOFactory.php(73)
-[2026-01-08 07:47:05] ERROR: (2002) Uncaught Exception PDOException: "SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo for espocrm-db failed: Temporary failure in name resolution" at /var/www/html/application/Espo/ORM/PDO/MysqlPDOFactory.php line 73 :: /var/www/html/application/Espo/ORM/PDO/MysqlPDOFactory.php(73)

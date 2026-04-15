@@ -30,3 +30,9 @@ Thumbs.db
 
 # --- File môi trường (Nếu bạn dùng thêm thư viện ngoài) ---
 .env
+data/espocrm-app/data/cache/
+data/espocrm-app/data/upload/
+data/espocrm-app/data/logs/
+*.log
+*.sql
+

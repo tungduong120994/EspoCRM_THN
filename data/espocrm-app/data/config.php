@@ -294,8 +294,8 @@ return [
     0 => 'youtube.com',
     1 => 'google.com'
   ],
-  'cacheTimestamp' => 1772266180,
-  'microtime' => 1772266180.417851,
+  'cacheTimestamp' => 1776219265,
+  'microtime' => 1776219265.286265,
   'siteUrl' => 'https://crm.example.com',
   'fullTextSearchMinLength' => 4,
   'appTimestamp' => 1766028462,
