@@ -1,0 +1,10 @@
+[2026-04-14 11:39:55] WARNING: E_WARNING: mkdir(): File exists
+[2026-04-14 12:30:55] WARNING: E_WARNING: mkdir(): File exists
+[2026-04-14 12:33:53] WARNING: E_WARNING: file_put_contents(data/cache/application/slim-routes.php): Failed to open stream: No such file or directory
+[2026-04-14 12:33:53] WARNING: E_WARNING: file_put_contents(data/cache/application/slim-routes.php): Failed to open stream: No such file or directory
+[2026-04-14 12:33:54] WARNING: E_WARNING: mkdir(): File exists
+[2026-04-14 13:57:40] ERROR: (0) Uncaught Exception RuntimeException: "Route collector cache file directory `data/cache/application` is not writable" at /var/www/html/vendor/slim/slim/Slim/Routing/RouteCollector.php line 146 :: /var/www/html/vendor/slim/slim/Slim/Routing/RouteCollector.php(146)
+[2026-04-14 13:57:40] ERROR: (0) Uncaught Exception RuntimeException: "Route collector cache file directory `data/cache/application` is not writable" at /var/www/html/vendor/slim/slim/Slim/Routing/RouteCollector.php line 146 :: /var/www/html/vendor/slim/slim/Slim/Routing/RouteCollector.php(146)
+[2026-04-14 13:58:16] WARNING: E_WARNING: touch(): Unable to create file data/cache/application/objMetadata.php because Permission denied
+[2026-04-14 13:58:19] ERROR: (0) Uncaught Exception RuntimeException: "Route collector cache file directory `data/cache/application` is not writable" at /var/www/html/vendor/slim/slim/Slim/Routing/RouteCollector.php line 146 :: /var/www/html/vendor/slim/slim/Slim/Routing/RouteCollector.php(146)
+[2026-04-14 15:18:21] WARNING: E_WARNING: mkdir(): File exists

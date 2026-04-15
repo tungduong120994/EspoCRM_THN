@@ -36,3 +36,5 @@ data/espocrm-app/data/logs/
 *.log
 *.sql
 
+docker-compose1.yml
+data/espocrm-app/data/cache/application/
