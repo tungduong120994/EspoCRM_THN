@@ -17,5 +17,6 @@
     },
     "recordViews": {
         "list": "custom:views/c-parcel/record/list"
-    }
+    },
+    "kanbanViewMode": false
 }

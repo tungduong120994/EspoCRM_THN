@@ -30,5 +30,6 @@
             "acl": "edit",
             "iconClass": "fas fa-plus"
         }
-    ]
+    ],
+    "kanbanViewMode": false
 }

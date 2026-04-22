@@ -1,20 +1,12 @@
 {
-  "fields": {
-    "cOrders": "Đơn hàng",
-    "cID": "ID",
-    "cName": "Tên",
-    "cProducts": "Sản phẩm",
-    "cShipments": "Lô hàng",
-    "cParcels": "Kiện hàng"
-  },
-  "links": {
-    "cOrders": "Đơn hàng",
-    "cProducts": "Sản phẩm",
-    "cShipments": "Lô hàng",
-    "cParcels": "Kiện hàng"
-  },
-  "labels": {
-    "Overview": "Tổng quan",
-    "Details": "Chi tiết"
-  }
+    "options": {
+        "type": {
+            "": "",
+            "Customer": "Khách hàng",
+            "Investor": "Nhà đầu tư",
+            "Partner": "Đối tác",
+            "Reseller": "Đại lý",
+            "a": "a"
+        }
+    }
 }

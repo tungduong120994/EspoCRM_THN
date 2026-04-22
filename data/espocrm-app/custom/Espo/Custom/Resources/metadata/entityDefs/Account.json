@@ -42,6 +42,22 @@
             "maxLength": 100,
             "options": [],
             "isCustom": true
+        },
+        "type": {
+            "options": [
+                "",
+                "Customer",
+                "Investor",
+                "Partner",
+                "Reseller"
+            ],
+            "style": {
+                "": null,
+                "Customer": null,
+                "Investor": null,
+                "Partner": null,
+                "Reseller": null
+            }
         }
     },
     "collection": {

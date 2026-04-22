@@ -1,0 +1,3 @@
+{
+    "beforeSaveCustomScript": "$classification = ifThenElse(\n    string\\pos(name, 'KH') == 0,\n    'Hàng lô',\n    'TMĐT'\n);\nentity\\setAttribute('classification', $classification);\nentity\\setAttribute('clientName', accountName);"
+}

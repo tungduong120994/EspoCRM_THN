@@ -1,37 +1,39 @@
 {
-  "fields": {
-    "shipment": "Lô hàng",
-    "name": "Mã vận đơn",
-    "trackingCode": "Mã vận đơn",
-    "weight": "Khối lượng (kg)",
-    "volume": "Thể tích (m³)",
-    "packageCount": "Số kiện",
-    "goodType": "Loại hàng",
-    "unitDeliveryPriceVnd": "Đơn giá giao hàng VND",
-    "unitDeliveryPriceVndCurrency": "Đơn giá giao hàng VND (Tiền tệ)",
-    "unitDeliveryPriceVndConverted": "Đơn giá giao hàng VND (Quy đổi)",
-    "account": "Tài khoản",
-    "totalDeliveryPriceVnd": "Tổng phí giao hàng VND",
-    "totalDeliveryPriceVndCurrency": "Tổng phí giao hàng VND (Tiền tệ)",
-    "totalDeliveryPriceVndConverted": "Tổng phí giao hàng VND (Quy đổi)",
-    "status": "Trạng thái"
-  },
-  "links": {
-    "shipment": "Lô hàng",
-    "account": "Tài khoản"
-  },
-  "labels": {
-    "Create CParcel": "Tạo kiện hàng",
-    "Create Parcels": "Tạo nhiều kiện hàng"
-  },
-  "tooltips": {
-    "totalDeliveryPriceVnd": "Công thức: Khối lượng x Đơn giá giao hàng VND hoặc Thể tích x Đơn giá giao hàng VND"
-  },
-  "options": {
-    "status": {
-      "delivered": "Đã giao",
-      "undelivered": "Chưa giao",
-      "returned": "Đã trả lại"
+    "fields": {
+        "shipment": "Lô hàng",
+        "name": "Mã vận đơn",
+        "trackingCode": "Mã vận đơn",
+        "weight": "Khối lượng (kg)",
+        "volume": "Thể tích (m³)",
+        "packageCount": "Số kiện",
+        "goodType": "Loại hàng",
+        "unitDeliveryPriceVnd": "Đơn giá giao hàng VND",
+        "unitDeliveryPriceVndCurrency": "Đơn giá giao hàng VND (Tiền tệ)",
+        "unitDeliveryPriceVndConverted": "Đơn giá giao hàng VND (Quy đổi)",
+        "account": "Tài khoản",
+        "totalDeliveryPriceVnd": "Tổng phí giao hàng VND",
+        "totalDeliveryPriceVndCurrency": "Tổng phí giao hàng VND (Tiền tệ)",
+        "totalDeliveryPriceVndConverted": "Tổng phí giao hàng VND (Quy đổi)",
+        "status": "Trạng thái",
+        "classification": "Phân loại",
+        "clientName": "Tên KH"
+    },
+    "links": {
+        "shipment": "Lô hàng",
+        "account": "Tài khoản"
+    },
+    "labels": {
+        "Create CParcel": "Tạo kiện hàng",
+        "Create Parcels": "Tạo nhiều kiện hàng"
+    },
+    "tooltips": {
+        "totalDeliveryPriceVnd": "Công thức: Khối lượng x Đơn giá giao hàng VND hoặc Thể tích x Đơn giá giao hàng VND"
+    },
+    "options": {
+        "status": {
+            "delivered": "Đã giao",
+            "undelivered": "Chưa giao",
+            "returned": "Đã trả lại"
+        }
     }
-  }
 }

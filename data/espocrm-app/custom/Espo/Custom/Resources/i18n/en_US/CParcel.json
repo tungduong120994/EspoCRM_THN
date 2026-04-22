@@ -12,7 +12,9 @@
         "totalDeliveryPriceVnd": "Total Delivery Price Vnd",
         "totalDeliveryPriceVndCurrency": "Total Delivery Price Vnd (Currency)",
         "totalDeliveryPriceVndConverted": "Total Delivery Price Vnd (Converted)",
-        "notes": "Notes"
+        "notes": "Notes",
+        "classification": "Phân loại",
+        "clientName": "Tên KH"
     },
     "links": {
         "shipment": "Shipment",

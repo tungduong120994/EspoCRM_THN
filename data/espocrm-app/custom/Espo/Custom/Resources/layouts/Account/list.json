@@ -10,9 +10,5 @@
     {
         "name": "assignedUser",
         "width": 16
-    },
-    {
-        "name": "billingAddressCountry",
-        "width": 18
     }
 ]

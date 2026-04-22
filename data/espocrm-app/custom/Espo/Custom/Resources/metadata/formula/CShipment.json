@@ -1,0 +1,3 @@
+{
+    "beforeSaveCustomScript": "entity\\setAttribute('clientName', accountName);"
+}

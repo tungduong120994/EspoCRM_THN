@@ -8,44 +8,6 @@ define('custom:views/c-shipment/record/list', ['views/record/list'], function (D
 
         setup: function () {
             Dep.prototype.setup.call(this);
-
-            // Bật một thông báo để chắc chắn file này đang chạy phiên bản mới nhất
-            // console.log("--- List View Custom Loaded Successfully ---");
-
-            // CAN THIỆP VÀO COLLECTION FETCH
-            // Đây là cách duy nhất để sửa URL API khi các hàm View bị bỏ qua
-            var self = this;
-            var originalFetch = this.collection.fetch.bind(this.collection);
-
-            this.collection.fetch = function (options) {
-                // console.log("--- Đang chặn đứng request API ---");
-                
-                if (this.where && this.where.length > 0) {
-                    // console.log("Dữ liệu lọc gốc:", JSON.stringify(this.where));
-
-                    // Biến đổi cấu trúc
-                    this.where = this.where.map(function (item) {
-                        if (item.type === 'textFilter') {
-                            // console.log("Phát hiện textFilter:", item.value);
-                            return {
-                                type: 'and',
-                                value: [
-                                    {
-                                        type: 'contains',
-                                        attribute: 'name',
-                                        value: item.value
-                                    }
-                                ]
-                            };
-                        }
-                        return item;
-                    });
-
-                    // console.log("Dữ liệu lọc đã biến đổi:", JSON.stringify(this.where));
-                }
-
-                return originalFetch(options);
-            };
         },
 
         // Giữ lại các hàm cũ của bạn bên dưới

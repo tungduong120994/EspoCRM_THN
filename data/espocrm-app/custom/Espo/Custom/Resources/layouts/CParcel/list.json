@@ -1,5 +1,9 @@
 [
     {
+        "name": "createdAt",
+        "width": 16
+    },
+    {
         "name": "name",
         "width": 15,
         "link": true,
@@ -11,14 +15,16 @@
         "align": "left"
     },
     {
-        "name": "shipment",
-        "width": 15,
-        "align": "left"
+        "name": "weight",
+        "width": 16
     },
     {
-        "name": "notes",
-        "width": 30,
-        "align": "left"
+        "name": "volume",
+        "width": 16
+    },
+    {
+        "name": "classification",
+        "width": 16
     },
     {
         "name": "status",

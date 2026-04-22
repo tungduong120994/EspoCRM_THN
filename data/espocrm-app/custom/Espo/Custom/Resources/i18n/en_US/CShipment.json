@@ -25,7 +25,8 @@
         "paid": "Paid",
         "additionalAmountVnd": "Additional Amount Vnd",
         "additionalAmountVndCurrency": "Additional Amount Vnd (Currency)",
-        "additionalAmountVndConverted": "Additional Amount Vnd (Converted)"
+        "additionalAmountVndConverted": "Additional Amount Vnd (Converted)",
+        "clientName": "Tên KH"
     },
     "links": {
         "parcels": "Parcels",
