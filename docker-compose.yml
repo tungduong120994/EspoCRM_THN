@@ -23,6 +23,7 @@ services:
       retries: 5
     networks:
       - espocrm-network
+      - shared_net
 
   espocrm:
     image: espocrm/espocrm:9.2.5
