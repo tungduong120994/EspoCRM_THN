@@ -64,9 +64,13 @@ services:
     networks:
       - thn-network
       - espocrm-network
+      - shared_net
 
 networks:
   thn-network:
     external: true
   espocrm-network:
     driver: bridge
+  shared_net:
+    external: true
+    name: my_shared_network
