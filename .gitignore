@@ -9,6 +9,15 @@ data/espocrm-db/*
 # File này chứa thông tin kết nối Database và mật khẩu hệ thống
 data/config.php
 
+data/espocrm-app/data/config.php
+data/espocrm-app/data/config-internal.php
+data/espocrm-app/data/cache/
+data/espocrm-app/data/upload/
+data/espocrm-app/data/logs/
+data/espocrm-app/data/tmp/
+
+data/espocrm-app/vendor/
+
 # --- Các file tùy chỉnh nội bộ ---
 # Nếu bạn không muốn đồng bộ các tùy chỉnh riêng biệt của instance này
 data/custom/
@@ -19,6 +28,8 @@ data/custom/
 
 # --- Backup và Xuất dữ liệu ---
 data/backup/*
+backup_*.sql
+*.sql
 # data/rebuild/* (Tùy chọn nếu bạn muốn chặn file rebuild)
 
 # --- Hệ điều hành và IDE ---
@@ -30,11 +41,8 @@ Thumbs.db
 
 # --- File môi trường (Nếu bạn dùng thêm thư viện ngoài) ---
 .env
-data/espocrm-app/data/cache/
-data/espocrm-app/data/upload/
-data/espocrm-app/data/logs/
 *.log
-*.sql
 
+docker-compose.override.yml
 docker-compose1.yml
 data/espocrm-app/data/cache/application/
