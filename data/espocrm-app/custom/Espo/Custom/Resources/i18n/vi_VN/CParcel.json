@@ -16,7 +16,10 @@
         "totalDeliveryPriceVndConverted": "Tổng phí giao hàng VND (Quy đổi)",
         "status": "Trạng thái",
         "classification": "Phân loại",
-        "clientName": "Tên KH"
+        "clientName": "Tên KH",
+        "createdAt": "Ngày nhập mã (kho VN)",
+        "deliveredAt": "Ngày giao khách gần nhất",
+        "returnedAt": "Ngày hoàn kho gần nhất"
     },
     "links": {
         "shipment": "Lô hàng",
@@ -24,10 +27,13 @@
     },
     "labels": {
         "Create CParcel": "Tạo kiện hàng",
-        "Create Parcels": "Tạo nhiều kiện hàng"
+        "Create Parcels": "Tạo nhiều kiện hàng",
+        "DeclaredFees": "Phí khai báo",
+        "ShipmentWorkflow": "Phiếu xuất kho và thanh toán",
+        "WarehouseDates": "Ngày nhập / giao / hoàn"
     },
     "tooltips": {
-        "totalDeliveryPriceVnd": "Công thức: Khối lượng x Đơn giá giao hàng VND hoặc Thể tích x Đơn giá giao hàng VND"
+        "totalDeliveryPriceVnd": "Tính theo đơn vị áp dụng của cả lô; chế độ tự động dùng cùng một đơn vị cho tất cả kiện. Chưa chọn thì giữ cách tính cũ."
     },
     "options": {
         "status": {

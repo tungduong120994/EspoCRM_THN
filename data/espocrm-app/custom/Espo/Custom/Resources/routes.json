@@ -1,0 +1,12 @@
+[
+    {
+        "route": "/CLogistics/:operation",
+        "method": "get",
+        "actionClassName": "Espo\\Custom\\Classes\\Api\\Logistics"
+    },
+    {
+        "route": "/CLogistics/:operation",
+        "method": "post",
+        "actionClassName": "Espo\\Custom\\Classes\\Api\\Logistics"
+    }
+]

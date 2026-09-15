@@ -46,8 +46,6 @@ class RecalculateParcel implements EntityManagerAware
 
     private function calculateTotalDeliveryPrice(Entity $entity): void
     {
-        $weight = $entity->get('weight');
-        $volume = $entity->get('volume');
         $shipmentId = $entity->get('shipmentId');
         
         if (!$shipmentId) {
@@ -61,33 +59,28 @@ class RecalculateParcel implements EntityManagerAware
             return;
         }
 
-        $unitPrice = (float) ($shipment->get('unitDeliveryPriceVnd') ?? 0);
-
-        // Use weight or volume (weight has priority)
-        $multiplier = 0;
-        if ($weight !== null && $weight > 0) {
-            $multiplier = $weight;
-        } elseif ($volume !== null && $volume > 0) {
-            $multiplier = $volume;
-        }
-
-        $totalDeliveryPriceVnd = $multiplier * $unitPrice;
-        $entity->set('totalDeliveryPriceVnd', $totalDeliveryPriceVnd);
+        $this->calculator->validatePricing($shipment);
+        $entity->set('totalDeliveryPriceVnd', $this->calculator->calculateParcelPrice($entity, $shipment));
     }
 
     private function updateShipment(Entity $parcel): void
     {
-        $shipmentId = $parcel->get('shipmentId');
-        if (!$shipmentId) {
-            return;
+        // Moving/unlinking a parcel affects both the previous and new shipment.
+        $ids = array_unique(array_filter([
+            $parcel->get('shipmentId'),
+            $parcel->hasFetched('shipmentId') ? $parcel->getFetched('shipmentId') : null,
+        ]));
+        foreach ($ids as $shipmentId) {
+            $shipment = $this->entityManager->getEntity('CShipment', $shipmentId);
+            if (!$shipment) {
+                continue;
+            }
+            $this->calculator->apply($shipment);
+            $this->entityManager->saveEntity($shipment, ['silent' => true, 'skipHooks' => true]);
+            if ($shipmentId === $parcel->get('shipmentId')) {
+                // Keep the API response in sync with the recalculated stored price.
+                $parcel->set('totalDeliveryPriceVnd', $this->calculator->calculateParcelPrice($parcel, $shipment));
+            }
         }
-
-        $shipment = $this->entityManager->getEntity('CShipment', $shipmentId);
-        if (!$shipment) {
-            return;
-        }
-
-        $this->calculator->apply($shipment);
-        $this->entityManager->saveEntity($shipment, ['silent' => true]);
     }
 }

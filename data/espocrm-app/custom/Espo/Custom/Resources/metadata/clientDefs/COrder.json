@@ -40,5 +40,107 @@
         "delete": false,
         "merge": false,
         "convertCurrency": false
+    },
+    "dynamicLogic": {
+        "fields": {
+            "declaredValueVnd": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "isTrue",
+                            "attribute": "formalImport"
+                        }
+                    ]
+                },
+                "required": {
+                    "conditionGroup": [
+                        {
+                            "type": "isTrue",
+                            "attribute": "formalImport"
+                        }
+                    ]
+                }
+            },
+            "documentFeeVnd": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "isTrue",
+                            "attribute": "formalImport"
+                        }
+                    ]
+                }
+            },
+            "entrustmentPercent": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "isTrue",
+                            "attribute": "formalImport"
+                        }
+                    ]
+                }
+            },
+            "entrustmentVnd": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "isTrue",
+                            "attribute": "formalImport"
+                        }
+                    ]
+                }
+            },
+            "importTaxPercent": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "isTrue",
+                            "attribute": "formalImport"
+                        }
+                    ]
+                }
+            },
+            "importTaxVnd": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "isTrue",
+                            "attribute": "formalImport"
+                        }
+                    ]
+                }
+            },
+            "vatPercent": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "isTrue",
+                            "attribute": "formalImport"
+                        }
+                    ]
+                }
+            },
+            "vatVnd": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "isTrue",
+                            "attribute": "formalImport"
+                        }
+                    ]
+                }
+            },
+            "declaredFeesVnd": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "isTrue",
+                            "attribute": "formalImport"
+                        }
+                    ]
+                }
+            }
+        }
     }
 }

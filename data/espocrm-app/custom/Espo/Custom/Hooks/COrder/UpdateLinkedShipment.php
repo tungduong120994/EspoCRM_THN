@@ -30,11 +30,23 @@ class UpdateLinkedShipment implements EntityManagerAware
             ->getRelation($entity, 'shipment')
             ->findOne();
 
-        if (!$shipment) {
-            return;
+        $shipments = $shipment ? [$shipment->getId() => $shipment] : [];
+        // Additional orders are stored on the shipment, not on the legacy
+        // one-to-one order relation. Refresh every affected draft as well.
+        if ($entity->get('accountId')) {
+            foreach ($this->entityManager->getRepository('CShipment')
+                ->where(['accountId' => $entity->get('accountId')])->find() as $candidate) {
+                if (in_array($entity->getId(), $candidate->get('additionalOrders') ?? [], true)) {
+                    $shipments[$candidate->getId()] = $candidate;
+                }
+            }
         }
-
-        $this->calculator->apply($shipment);
-        $this->entityManager->saveEntity($shipment, ['silent' => true]);
+        foreach ($shipments as $linked) {
+            if (in_array($linked->get('workflowStatus'), ['confirmed', 'cancelled'], true)) {
+                continue;
+            }
+            $this->calculator->apply($linked);
+            $this->entityManager->saveEntity($linked, ['silent' => true]);
+        }
     }
 }

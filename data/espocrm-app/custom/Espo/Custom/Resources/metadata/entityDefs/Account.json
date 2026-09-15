@@ -45,19 +45,20 @@
         },
         "type": {
             "options": [
-                "",
-                "Customer",
-                "Investor",
-                "Partner",
-                "Reseller"
+                "company",
+                "marketing",
+                "sales",
+                "marketing-transferred",
+                "sales-transferred"
             ],
             "style": {
-                "": null,
-                "Customer": null,
-                "Investor": null,
-                "Partner": null,
-                "Reseller": null
-            }
+                "company": null,
+                "marketing": null,
+                "sales": null,
+                "marketing-transferred": null,
+                "sales-transferred": null
+            },
+            "default": "company"
         }
     },
     "collection": {

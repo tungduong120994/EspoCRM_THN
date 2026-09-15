@@ -4,13 +4,17 @@
         "COrderItem": "Order Line",
         "CProduct": "Product",
         "CShipment": "Shipment",
-        "CParcel": "Parcel"
+        "CParcel": "Parcel",
+        "CInventory": "Tồn kho",
+        "CFinance": "Thu tiền và công nợ"
     },
     "scopeNamesPlural": {
         "COrder": "Orders",
         "COrderItem": "Order Lines",
         "CProduct": "Products",
         "CShipment": "Shipments",
-        "CParcel": "Parcels"
+        "CParcel": "Parcels",
+        "CInventory": "Tồn kho",
+        "CFinance": "Thu tiền và công nợ"
     }
 }

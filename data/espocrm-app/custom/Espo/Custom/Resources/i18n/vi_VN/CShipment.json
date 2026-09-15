@@ -26,7 +26,23 @@
         "additionalAmountVnd": "Số tiền phụ trội VND",
         "additionalAmountVndCurrency": "Số tiền phụ trội VND (Tiền tệ)",
         "additionalAmountVndConverted": "Số tiền phụ trội VND (Quy đổi)",
-        "clientName": "Tên KH"
+        "clientName": "Tên KH",
+        "surcharge": "Nội dung phụ thu",
+        "deliveryPricingMode": "Cách tính cước",
+        "appliedDeliveryPricingBasis": "Đơn vị tính cước áp dụng",
+        "unitDeliveryPricePerKgVnd": "Đơn giá theo kg (VND)",
+        "unitDeliveryPricePerM3Vnd": "Đơn giá theo m³ (VND)",
+        "deliveryPriceByWeightVnd": "Cước theo cân (VND)",
+        "deliveryPriceByVolumeVnd": "Cước theo khối (VND)",
+        "workflowStatus": "Trạng thái phiếu",
+        "confirmedAt": "Ngày xác nhận",
+        "cancelledAt": "Ngày hủy",
+        "additionalOrders": "Các đơn bổ sung",
+        "postedAmountVnd": "Giá trị phiếu đã chốt (VND)",
+        "paidAmountVnd": "Đã phân bổ thanh toán (VND)",
+        "outstandingAmountVnd": "Phiếu còn nợ (VND)",
+        "oldBalanceSnapshotVnd": "Công nợ cũ lúc lập phiếu (VND)",
+        "requestedTotalSnapshotVnd": "Tổng đề nghị thanh toán lúc lập phiếu (VND)"
     },
     "links": {
         "parcels": "Kiện hàng",
@@ -43,25 +59,46 @@
         "Export Shipments by Date Range": "Xuất lô hàng theo khoảng thời gian",
         "Export from Date": "Từ ngày",
         "Export to Date": "Đến ngày",
-        "Format": "Định dạng"
+        "Format": "Định dạng",
+        "DeclaredFees": "Phí khai báo",
+        "ShipmentWorkflow": "Phiếu xuất kho và thanh toán",
+        "WarehouseDates": "Ngày nhập / giao / hoàn"
     },
     "messages": {
         "Please select at least one date": "Vui lòng chọn ít nhất một ngày",
         "Start date must be before end date": "Ngày bắt đầu phải trước ngày kết thúc"
     },
     "tooltips": {
-        "totalDeliveryPriceVnd": "Công thức: Tổng từ các kiện hàng",
+        "totalDeliveryPriceVnd": "Cước theo cách tính đã chọn cho cả lô. Tự động lấy số cao hơn giữa tổng kg × giá/kg và tổng m³ × giá/m³. Chưa chọn thì giữ cách tính cũ.",
         "totalPackages": "Công thức: Tổng số kiện từ các kiện hàng",
         "totalWeight": "Công thức: Tổng khối lượng từ các kiện hàng",
         "totalVolume": "Công thức: Tổng thể tích từ các kiện hàng",
         "orderRemainingAmountVnd": "Số tiền còn lại từ đơn hàng liên kết",
-        "totalPayableAmountVnd": "Công thức: Số tiền còn lại từ đơn hàng + Tổng phí giao hàng"
+        "totalPayableAmountVnd": "Công thức: Số tiền còn lại từ đơn hàng + Tổng phí giao hàng",
+        "deliveryPricingMode": "Chọn tính theo kg, m³ hoặc lấy cước cao hơn của cả lô. Giữ nguyên cả cân nặng và thể tích. Chưa chọn thì giữ cách tính cũ. Nếu thiếu số đo được chọn thì phần cước đó bằng 0, không tự đổi sang số đo khác."
     },
     "options": {
         "serviceType": {
             "TMĐT": "TMĐT",
             "Hàng Lô": "Hàng Lô",
             "Chính Ngạch": "Chính Ngạch"
+        },
+        "deliveryPricingMode": {
+            "": "Chưa chọn (cách tính cũ)",
+            "weight": "Theo cân (kg)",
+            "volume": "Theo khối (m³)",
+            "higher": "Tự động lấy cước cao hơn"
+        },
+        "appliedDeliveryPricingBasis": {
+            "": "",
+            "weight": "kg",
+            "volume": "m³"
+        },
+        "workflowStatus": {
+            "": "Phiếu cũ",
+            "draft": "Nháp",
+            "confirmed": "Đã xác nhận",
+            "cancelled": "Đã hủy"
         }
     }
 }

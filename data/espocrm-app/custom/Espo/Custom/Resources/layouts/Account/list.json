@@ -8,6 +8,10 @@
         "width": 16
     },
     {
+        "name": "type",
+        "width": 16
+    },
+    {
         "name": "assignedUser",
         "width": 16
     }

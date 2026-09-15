@@ -1,0 +1,63 @@
+{
+    "fields": {
+        "name": {
+            "type": "varchar",
+            "maxLength": 255,
+            "readOnly": true
+        },
+        "account": {
+            "type": "link",
+            "readOnly": true
+        },
+        "createdAt": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "createdBy": {
+            "type": "link",
+            "readOnly": true
+        },
+        "requestKey": {
+            "type": "varchar",
+            "maxLength": 80,
+            "readOnly": true
+        },
+        "payloadHash": {
+            "type": "varchar",
+            "maxLength": 64,
+            "readOnly": true
+        },
+        "result": {
+            "type": "text",
+            "readOnly": true
+        }
+    },
+    "links": {
+        "account": {
+            "type": "belongsTo",
+            "entity": "Account"
+        },
+        "createdBy": {
+            "type": "belongsTo",
+            "entity": "User"
+        }
+    },
+    "collection": {
+        "orderBy": "createdAt",
+        "order": "desc"
+    },
+    "indexes": {
+        "accountCreated": {
+            "columns": [
+                "accountId",
+                "createdAt"
+            ]
+        },
+        "requestKey": {
+            "columns": [
+                "requestKey"
+            ],
+            "unique": true
+        }
+    }
+}

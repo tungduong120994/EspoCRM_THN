@@ -1,0 +1,7 @@
+{
+    "textFilterUseContainsAttributeList": [
+        "name",
+        "account.name",
+        "account.cName"
+    ]
+}

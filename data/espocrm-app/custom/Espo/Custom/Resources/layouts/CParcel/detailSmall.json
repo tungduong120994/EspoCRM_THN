@@ -41,5 +41,24 @@
         "hidden": false,
         "noteText": null,
         "customLabel": "Overview"
+    },
+    {
+        "label": "WarehouseDates",
+        "rows": [
+            [
+                {
+                    "name": "createdAt"
+                },
+                {
+                    "name": "deliveredAt"
+                }
+            ],
+            [
+                {
+                    "name": "returnedAt"
+                },
+                false
+            ]
+        ]
     }
 ]

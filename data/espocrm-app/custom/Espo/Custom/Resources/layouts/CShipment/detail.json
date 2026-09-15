@@ -17,6 +17,52 @@
         "label": "Overview"
     },
     {
+        "label": "ShipmentWorkflow",
+        "style": "default",
+        "rows": [
+            [
+                {
+                    "name": "account"
+                },
+                {
+                    "name": "workflowStatus"
+                }
+            ],
+            [
+                {
+                    "name": "order"
+                },
+                {
+                    "name": "additionalOrders"
+                }
+            ],
+            [
+                {
+                    "name": "confirmedAt"
+                },
+                {
+                    "name": "paidAmountVnd"
+                }
+            ],
+            [
+                {
+                    "name": "oldBalanceSnapshotVnd"
+                },
+                {
+                    "name": "outstandingAmountVnd"
+                }
+            ],
+            [
+                {
+                    "name": "postedAmountVnd"
+                },
+                {
+                    "name": "requestedTotalSnapshotVnd"
+                }
+            ]
+        ]
+    },
+    {
         "rows": [
             [
                 {
@@ -38,9 +84,36 @@
         "rows": [
             [
                 {
+                    "name": "deliveryPricingMode"
+                },
+                {
+                    "name": "appliedDeliveryPricingBasis"
+                },
+                false
+            ],
+            [
+                {
                     "name": "unitDeliveryPriceVnd"
                 },
                 false,
+                false
+            ],
+            [
+                {
+                    "name": "unitDeliveryPricePerKgVnd"
+                },
+                {
+                    "name": "unitDeliveryPricePerM3Vnd"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "deliveryPriceByWeightVnd"
+                },
+                {
+                    "name": "deliveryPriceByVolumeVnd"
+                },
                 {
                     "name": "totalDeliveryPriceVnd"
                 }
@@ -66,6 +139,11 @@
                 },
                 {
                     "name": "totalPayableAmountVnd"
+                }
+            ],
+            [
+                {
+                    "name": "surcharge"
                 }
             ]
         ],

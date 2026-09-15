@@ -1,0 +1,10 @@
+{
+    "scopeNames": {
+        "CInventory": "Tồn kho",
+        "CFinance": "Thu tiền và công nợ"
+    },
+    "scopeNamesPlural": {
+        "CInventory": "Tồn kho",
+        "CFinance": "Thu tiền và công nợ"
+    }
+}

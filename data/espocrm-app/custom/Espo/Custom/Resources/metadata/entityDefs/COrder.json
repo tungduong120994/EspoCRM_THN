@@ -206,6 +206,123 @@
         },
         "additionalAmountVndCurrency": {
             "default": "VND"
+        },
+        "trackingCode": {
+            "type": "varchar",
+            "maxLength": 100,
+            "options": [],
+            "isCustom": true
+        },
+        "status": {
+            "type": "enum",
+            "options": [
+                "pending_shipment",
+                "shipped",
+                "warehouse_cn",
+                "warehouse_hn",
+                "released"
+            ],
+            "style": {
+                "pending_shipment": null,
+                "shipped": null,
+                "warehouse_cn": null,
+                "warehouse_hn": null,
+                "released": null
+            },
+            "default": "pending_shipment",
+            "maxLength": 100,
+            "isCustom": true
+        },
+        "formalImport": {
+            "type": "bool",
+            "default": false,
+            "isCustom": true
+        },
+        "serviceFeeRatePercent": {
+            "type": "float",
+            "min": 0,
+            "max": 100,
+            "isCustom": true,
+            "tooltip": true,
+            "view": "custom:views/c-order/fields/service-fee-percent"
+        },
+        "declaredValueVnd": {
+            "type": "currency",
+            "onlyDefaultCurrency": true,
+            "isCustom": true,
+            "readOnly": false,
+            "min": 0
+        },
+        "documentFeeVnd": {
+            "type": "currency",
+            "onlyDefaultCurrency": true,
+            "isCustom": true,
+            "readOnly": false,
+            "min": 0,
+            "default": 0
+        },
+        "declaredFeesVnd": {
+            "type": "currency",
+            "onlyDefaultCurrency": true,
+            "isCustom": true,
+            "readOnly": true
+        },
+        "entrustmentPercent": {
+            "type": "float",
+            "min": 0,
+            "max": 100,
+            "default": 0,
+            "isCustom": true
+        },
+        "entrustmentVnd": {
+            "type": "currency",
+            "onlyDefaultCurrency": true,
+            "isCustom": true,
+            "readOnly": true
+        },
+        "importTaxPercent": {
+            "type": "float",
+            "min": 0,
+            "max": 100,
+            "default": 0,
+            "isCustom": true
+        },
+        "importTaxVnd": {
+            "type": "currency",
+            "onlyDefaultCurrency": true,
+            "isCustom": true,
+            "readOnly": true
+        },
+        "vatPercent": {
+            "type": "float",
+            "min": 0,
+            "max": 100,
+            "default": 0,
+            "isCustom": true
+        },
+        "vatVnd": {
+            "type": "currency",
+            "onlyDefaultCurrency": true,
+            "isCustom": true,
+            "readOnly": true
+        },
+        "declaredValueVndCurrency": {
+            "default": "VND"
+        },
+        "documentFeeVndCurrency": {
+            "default": "VND"
+        },
+        "declaredFeesVndCurrency": {
+            "default": "VND"
+        },
+        "entrustmentVndCurrency": {
+            "default": "VND"
+        },
+        "importTaxVndCurrency": {
+            "default": "VND"
+        },
+        "vatVndCurrency": {
+            "default": "VND"
         }
     },
     "links": {
@@ -259,7 +376,9 @@
         "orderBy": "createdAt",
         "order": "desc",
         "textFilterFields": [
-            "name"
+            "name",
+            "account.name",
+            "account.cName"
         ],
         "fullTextSearch": false,
         "countDisabled": false
@@ -290,5 +409,6 @@
             ]
         }
     },
-    "optimisticConcurrencyControl": false
+    "optimisticConcurrencyControl": false,
+    "repositoryClassName": "Espo\\Custom\\Repositories\\TransactionalLogistics"
 }

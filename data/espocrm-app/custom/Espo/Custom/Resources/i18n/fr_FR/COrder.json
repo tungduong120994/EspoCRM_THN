@@ -1,19 +1,38 @@
 {
-  "labels": {
-    "Create COrder": "Créer un Order",
-    "Add Products": "Ajouter des produits",
-    "Select Products to Add": "Sélectionner les produits à ajouter",
-    "Add Selected": "Ajouter la sélection",
-    "No products selected": "Aucun produit sélectionné",
-    "Products added successfully": "Produits ajoutés avec succès",
-    "Export by Date Range": "Exporter par période",
-    "Export Orders by Date Range": "Exporter les commandes par période",
-    "Export from Date": "Date de début",
-    "Export to Date": "Date de fin",
-    "Format": "Format"
-  },
-  "messages": {
-    "Please select at least one date": "Veuillez sélectionner au moins une date",
-    "Start date must be before end date": "La date de début doit être avant la date de fin"
-  }
+    "labels": {
+        "Create COrder": "Créer un Order",
+        "Add Products": "Ajouter des produits",
+        "Select Products to Add": "Sélectionner les produits à ajouter",
+        "Add Selected": "Ajouter la sélection",
+        "No products selected": "Aucun produit sélectionné",
+        "Products added successfully": "Produits ajoutés avec succès",
+        "Export by Date Range": "Exporter par période",
+        "Export Orders by Date Range": "Exporter les commandes par période",
+        "Export from Date": "Date de début",
+        "Export to Date": "Date de fin",
+        "Format": "Format",
+        "DeclaredFees": "Phí khai báo",
+        "ShipmentWorkflow": "Phiếu xuất kho và thanh toán",
+        "WarehouseDates": "Ngày nhập / giao / hoàn"
+    },
+    "messages": {
+        "Please select at least one date": "Veuillez sélectionner au moins une date",
+        "Start date must be before end date": "La date de début doit être avant la date de fin"
+    },
+    "fields": {
+        "formalImport": "Đơn chính ngạch",
+        "declaredValueVnd": "Giá trị khai báo (VND)",
+        "documentFeeVnd": "Phí đầu mục (VND)",
+        "serviceFeeRatePercent": "Phí dịch vụ (%)",
+        "entrustmentPercent": "Ủy thác (%)",
+        "entrustmentVnd": "Phí ủy thác (VND)",
+        "importTaxPercent": "Thuế NK (%)",
+        "importTaxVnd": "Thuế NK (VND)",
+        "vatPercent": "VAT (%)",
+        "vatVnd": "VAT (VND)",
+        "declaredFeesVnd": "Tổng phí khai báo (VND)"
+    },
+    "tooltips": {
+        "serviceFeeRatePercent": "Nhập 1,5 để tính 1,5%. Giá trị cũ được giữ nguyên khi chưa thay tỷ lệ."
+    }
 }

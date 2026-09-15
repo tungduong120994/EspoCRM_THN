@@ -1,3 +1,6 @@
+{{#if invoiceSnapshotHtml}}
+{{{invoiceSnapshotHtml}}}
+{{else}}
 <table style="width: 100%; margin-bottom: 10px; border-collapse: collapse; border-spacing: 0;">
   <tbody>
     <tr>
@@ -53,7 +56,15 @@
       <td class="section-label" style="border:0; padding: 2px 4px; line-height: 1.2;">Tổng thể tích:</td>
       <td>{{totalVolume}} m³</td>
       <td class="section-label" style="border:0; padding: 2px 4px; line-height: 1.2;">Đơn giá giao hàng:</td>
-      <td>{{unitDeliveryPriceVnd}} ₫</td>
+      <td>
+        {{#if appliedDeliveryPricingBasis}}
+        Theo kg: {{unitDeliveryPricePerKgVnd}} ₫/kg<br>
+        Theo khối: {{unitDeliveryPricePerM3Vnd}} ₫/m³<br>
+        Áp dụng: {{appliedDeliveryPricingBasis}}
+        {{else}}
+        {{unitDeliveryPriceVnd}} ₫
+        {{/if}}
+      </td>
     </tr>
   </tbody>
 </table>
@@ -150,3 +161,4 @@
     </tr>
   </tbody>
 </table>
+{{/if}}

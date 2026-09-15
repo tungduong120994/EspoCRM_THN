@@ -39,5 +39,9 @@
     {
         "name": "grandTotalPriceVnd",
         "width": 9
+    },
+    {
+        "name": "status",
+        "width": 16
     }
 ]

@@ -41,7 +41,7 @@
                     "name": "totalOrderValueVnd"
                 },
                 {
-                    "name": "serviceFeeVndPercent"
+                    "name": "serviceFeeRatePercent"
                 },
                 false
             ],
@@ -60,6 +60,56 @@
         "hidden": false,
         "noteText": null,
         "label": "LogisticsAndCosts"
+    },
+    {
+        "label": "DeclaredFees",
+        "style": "default",
+        "rows": [
+            [
+                {
+                    "name": "formalImport"
+                },
+                {
+                    "name": "declaredValueVnd"
+                }
+            ],
+            [
+                {
+                    "name": "documentFeeVnd"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "entrustmentPercent"
+                },
+                {
+                    "name": "entrustmentVnd"
+                }
+            ],
+            [
+                {
+                    "name": "importTaxPercent"
+                },
+                {
+                    "name": "importTaxVnd"
+                }
+            ],
+            [
+                {
+                    "name": "vatPercent"
+                },
+                {
+                    "name": "vatVnd"
+                }
+            ],
+            [
+                {
+                    "name": "declaredFeesVnd"
+                },
+                false
+            ]
+        ]
     },
     {
         "rows": [

@@ -1,16 +1,20 @@
 {
-  "scopeNames": {
-    "COrder": "Đơn hàng",
-    "COrderItem": "Mục đơn hàng",
-    "CProduct": "Sản phẩm",
-    "CShipment": "Lô hàng",
-    "CParcel": "Kiện hàng"
-  },
-  "scopeNamesPlural": {
-    "COrder": "Đơn hàng",
-    "COrderItem": "Mục đơn hàng",
-    "CProduct": "Sản phẩm",
-    "CShipment": "Lô hàng",
-    "CParcel": "Kiện hàng"
-  }
+    "scopeNames": {
+        "COrder": "Đơn hàng",
+        "COrderItem": "Mục đơn hàng",
+        "CProduct": "Sản phẩm",
+        "CShipment": "Lô hàng",
+        "CParcel": "Kiện hàng",
+        "CInventory": "Tồn kho",
+        "CFinance": "Thu tiền và công nợ"
+    },
+    "scopeNamesPlural": {
+        "COrder": "Đơn hàng",
+        "COrderItem": "Mục đơn hàng",
+        "CProduct": "Sản phẩm",
+        "CShipment": "Lô hàng",
+        "CParcel": "Kiện hàng",
+        "CInventory": "Tồn kho",
+        "CFinance": "Thu tiền và công nợ"
+    }
 }

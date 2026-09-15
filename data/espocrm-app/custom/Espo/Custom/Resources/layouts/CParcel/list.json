@@ -30,5 +30,8 @@
         "name": "status",
         "width": 10,
         "align": "right"
+    },
+    {
+        "name": "deliveredAt"
     }
 ]

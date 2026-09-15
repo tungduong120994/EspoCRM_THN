@@ -26,7 +26,23 @@
         "additionalAmountVnd": "Additional Amount Vnd",
         "additionalAmountVndCurrency": "Additional Amount Vnd (Currency)",
         "additionalAmountVndConverted": "Additional Amount Vnd (Converted)",
-        "clientName": "Tên KH"
+        "clientName": "Tên KH",
+        "surcharge": "Nội dung phụ thu",
+        "deliveryPricingMode": "Freight calculation",
+        "appliedDeliveryPricingBasis": "Applied basis",
+        "unitDeliveryPricePerKgVnd": "Rate per kg (VND)",
+        "unitDeliveryPricePerM3Vnd": "Rate per m³ (VND)",
+        "deliveryPriceByWeightVnd": "Freight by weight (VND)",
+        "deliveryPriceByVolumeVnd": "Freight by volume (VND)",
+        "workflowStatus": "Trạng thái phiếu",
+        "confirmedAt": "Ngày xác nhận",
+        "cancelledAt": "Ngày hủy",
+        "additionalOrders": "Các đơn bổ sung",
+        "postedAmountVnd": "Giá trị phiếu đã chốt (VND)",
+        "paidAmountVnd": "Đã phân bổ thanh toán (VND)",
+        "outstandingAmountVnd": "Phiếu còn nợ (VND)",
+        "oldBalanceSnapshotVnd": "Công nợ cũ lúc lập phiếu (VND)",
+        "requestedTotalSnapshotVnd": "Tổng đề nghị thanh toán lúc lập phiếu (VND)"
     },
     "links": {
         "parcels": "Parcels",
@@ -43,25 +59,46 @@
         "Export Shipments by Date Range": "Export Shipments by Date Range",
         "Export from Date": "From Date",
         "Export to Date": "To Date",
-        "Format": "Format"
+        "Format": "Format",
+        "DeclaredFees": "Phí khai báo",
+        "ShipmentWorkflow": "Phiếu xuất kho và thanh toán",
+        "WarehouseDates": "Ngày nhập / giao / hoàn"
     },
     "messages": {
         "Please select at least one date": "Please select at least one date",
         "Start date must be before end date": "Start date must be before end date"
     },
     "tooltips": {
-        "totalDeliveryPriceVnd": "Formula: Sum from all parcels",
+        "totalDeliveryPriceVnd": "Selected freight for the whole shipment. Automatic takes the higher of total weight ? kg rate and total volume ? m³ rate.",
         "totalPackages": "Formula: Total packages from all parcels",
         "totalWeight": "Formula: Total weight from all parcels",
         "totalVolume": "Formula: Total volume from all parcels",
         "orderRemainingAmountVnd": "Remaining amount from linked order",
-        "totalPayableAmountVnd": "Formula: Order Remaining Amount + Total Delivery Price"
+        "totalPayableAmountVnd": "Formula: Order Remaining Amount + Total Delivery Price",
+        "deliveryPricingMode": "Choose kg, m³, or the higher freight for the whole shipment. Automatic compares total kg × kg rate and total m³ × m³ rate. Both measurements are retained. Leave unselected to keep the existing calculation. A missing selected measurement contributes zero; there is no fallback to the other measurement."
     },
     "options": {
         "serviceType": {
             "TMĐT": "TMĐT",
             "Hàng Lô": "Hàng Lô",
             "Chính Ngạch": "Chính Ngạch"
+        },
+        "deliveryPricingMode": {
+            "": "Not selected (existing calculation)",
+            "weight": "By weight (kg)",
+            "volume": "By volume (m³)",
+            "higher": "Automatic: higher freight"
+        },
+        "appliedDeliveryPricingBasis": {
+            "": "",
+            "weight": "kg",
+            "volume": "m³"
+        },
+        "workflowStatus": {
+            "": "Phiếu cũ",
+            "draft": "Nháp",
+            "confirmed": "Đã xác nhận",
+            "cancelled": "Đã hủy"
         }
     }
 }

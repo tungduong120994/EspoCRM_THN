@@ -25,7 +25,10 @@
         "Export Orders by Date Range": "Export Orders by Date Range",
         "Export from Date": "From Date",
         "Export to Date": "To Date",
-        "Format": "Format"
+        "Format": "Format",
+        "DeclaredFees": "Phí khai báo",
+        "ShipmentWorkflow": "Phiếu xuất kho và thanh toán",
+        "WarehouseDates": "Ngày nhập / giao / hoàn"
     },
     "messages": {
         "Please select at least one date": "Please select at least one date",
@@ -99,7 +102,20 @@
         "estimatedChinaVietnamShippingUnitPriceVndCurrency": "Estimated China Vietnam Shipping Unit Price VND Currency",
         "additionalAmountVnd": "Additional Amount VND",
         "additionalAmountVndCurrency": "Additional Amount VND (Currency)",
-        "additionalAmountVndConverted": "Additional Amount VND (Converted)"
+        "additionalAmountVndConverted": "Additional Amount VND (Converted)",
+        "trackingCode": "Mã vận đơn",
+        "status": "Trạng thái",
+        "formalImport": "Đơn chính ngạch",
+        "declaredValueVnd": "Giá trị khai báo (VND)",
+        "documentFeeVnd": "Phí đầu mục (VND)",
+        "serviceFeeRatePercent": "Phí dịch vụ (%)",
+        "entrustmentPercent": "Ủy thác (%)",
+        "entrustmentVnd": "Phí ủy thác (VND)",
+        "importTaxPercent": "Thuế NK (%)",
+        "importTaxVnd": "Thuế NK (VND)",
+        "vatPercent": "VAT (%)",
+        "vatVnd": "VAT (VND)",
+        "declaredFeesVnd": "Tổng phí khai báo (VND)"
     },
     "tooltips": {
         "serviceFeeVndPercent": "%",
@@ -114,6 +130,16 @@
         "totalWeight": "Calcul : From OderItems => Weight",
         "grandTotalPriceVnd": "Calcul : Total Order Value VND + Service Fee VND + Estimated China-Vietnam Shipping Fee Total VND",
         "totalPayableAmountVnd": "Calcul : Total Delivery Fee VND + Remaining Amount VND",
-        "remainingAmountVnd": "Calcul : Grand Total Price VND - Deposit Amount VND"
+        "remainingAmountVnd": "Calcul : Grand Total Price VND - Deposit Amount VND",
+        "serviceFeeRatePercent": "Nhập 1,5 để tính 1,5%. Giá trị cũ được giữ nguyên khi chưa thay tỷ lệ."
+    },
+    "options": {
+        "status": {
+            "pending_shipment": "Chờ phát hàng",
+            "shipped": "Đã phát hàng",
+            "warehouse_cn": "Nhập kho TQ",
+            "warehouse_hn": "Nhập kho HN",
+            "released": "Đã xuất kho"
+        }
     }
 }

@@ -88,6 +88,12 @@
         },
         "totalPriceCnyCurrency": {
             "default": "CNY"
+        },
+        "trackingCode": {
+            "type": "varchar",
+            "maxLength": 100,
+            "options": [],
+            "isCustom": true
         }
     },
     "links": {
@@ -159,5 +165,6 @@
             ]
         }
     },
-    "optimisticConcurrencyControl": false
+    "optimisticConcurrencyControl": false,
+    "repositoryClassName": "Espo\\Custom\\Repositories\\TransactionalLogistics"
 }

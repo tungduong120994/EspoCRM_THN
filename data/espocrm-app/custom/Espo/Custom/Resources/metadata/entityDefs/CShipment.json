@@ -144,6 +144,160 @@
             "maxLength": 100,
             "options": [],
             "isCustom": true
+        },
+        "surcharge": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true
+        },
+        "deliveryPricingMode": {
+            "type": "enum",
+            "options": [
+                "",
+                "weight",
+                "volume",
+                "higher"
+            ],
+            "default": "",
+            "maxLength": 20,
+            "isCustom": true,
+            "audited": true,
+            "tooltip": true
+        },
+        "appliedDeliveryPricingBasis": {
+            "type": "enum",
+            "options": [
+                "",
+                "weight",
+                "volume"
+            ],
+            "readOnly": true,
+            "maxLength": 20,
+            "isCustom": true
+        },
+        "unitDeliveryPricePerKgVnd": {
+            "type": "currency",
+            "min": 0,
+            "isCustom": true,
+            "onlyDefaultCurrency": true,
+            "audited": true
+        },
+        "unitDeliveryPricePerKgVndCurrency": {
+            "default": "VND"
+        },
+        "unitDeliveryPricePerM3Vnd": {
+            "type": "currency",
+            "min": 0,
+            "isCustom": true,
+            "onlyDefaultCurrency": true,
+            "audited": true
+        },
+        "unitDeliveryPricePerM3VndCurrency": {
+            "default": "VND"
+        },
+        "deliveryPriceByWeightVnd": {
+            "type": "currency",
+            "min": 0,
+            "isCustom": true,
+            "onlyDefaultCurrency": true,
+            "readOnly": true
+        },
+        "deliveryPriceByWeightVndCurrency": {
+            "default": "VND"
+        },
+        "deliveryPriceByVolumeVnd": {
+            "type": "currency",
+            "min": 0,
+            "isCustom": true,
+            "onlyDefaultCurrency": true,
+            "readOnly": true
+        },
+        "deliveryPriceByVolumeVndCurrency": {
+            "default": "VND"
+        },
+        "workflowStatus": {
+            "type": "enum",
+            "options": [
+                "",
+                "draft",
+                "confirmed",
+                "cancelled"
+            ],
+            "default": "",
+            "readOnly": true,
+            "isCustom": true,
+            "maxLength": 20
+        },
+        "confirmedAt": {
+            "type": "datetime",
+            "readOnly": true,
+            "isCustom": true
+        },
+        "cancelledAt": {
+            "type": "datetime",
+            "readOnly": true,
+            "isCustom": true
+        },
+        "postedAmountVnd": {
+            "type": "currency",
+            "onlyDefaultCurrency": true,
+            "isCustom": true,
+            "readOnly": true
+        },
+        "paidAmountVnd": {
+            "type": "currency",
+            "onlyDefaultCurrency": true,
+            "isCustom": true,
+            "readOnly": true
+        },
+        "outstandingAmountVnd": {
+            "type": "currency",
+            "onlyDefaultCurrency": true,
+            "isCustom": true,
+            "readOnly": true
+        },
+        "oldBalanceSnapshotVnd": {
+            "type": "currency",
+            "onlyDefaultCurrency": true,
+            "isCustom": true,
+            "readOnly": true
+        },
+        "requestedTotalSnapshotVnd": {
+            "type": "currency",
+            "onlyDefaultCurrency": true,
+            "isCustom": true,
+            "readOnly": true
+        },
+        "invoiceSnapshot": {
+            "type": "text",
+            "readOnly": true,
+            "isCustom": true
+        },
+        "invoiceSnapshotHtml": {
+            "type": "text",
+            "readOnly": true,
+            "isCustom": true
+        },
+        "additionalOrders": {
+            "type": "array",
+            "isCustom": true,
+            "view": "custom:views/c-shipment/fields/additional-orders"
+        },
+        "postedAmountVndCurrency": {
+            "default": "VND"
+        },
+        "paidAmountVndCurrency": {
+            "default": "VND"
+        },
+        "outstandingAmountVndCurrency": {
+            "default": "VND"
+        },
+        "oldBalanceSnapshotVndCurrency": {
+            "default": "VND"
+        },
+        "requestedTotalSnapshotVndCurrency": {
+            "default": "VND"
         }
     },
     "links": {
@@ -222,5 +376,6 @@
             ]
         }
     },
-    "optimisticConcurrencyControl": false
+    "optimisticConcurrencyControl": false,
+    "repositoryClassName": "Espo\\Custom\\Repositories\\TransactionalLogistics"
 }

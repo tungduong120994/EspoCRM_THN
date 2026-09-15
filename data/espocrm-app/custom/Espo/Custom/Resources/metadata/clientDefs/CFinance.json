@@ -1,0 +1,4 @@
+{
+    "controller": "custom:controllers/finance",
+    "iconClass": "fas fa-wallet"
+}

@@ -26,5 +26,21 @@
         ],
         "style": "default",
         "label": "Pricing"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "trackingCode"
+                }
+            ]
+        ],
+        "dynamicLogicVisible": null,
+        "style": "default",
+        "tabBreak": false,
+        "hidden": false,
+        "noteText": null,
+        "noteStyle": "info",
+        "customLabel": "Mã vận đơn"
     }
 ]

@@ -1,0 +1,24 @@
+{
+    "entity": false,
+    "tab": true,
+    "acl": true,
+    "aclFieldLevelDisabled": true,
+    "aclActionList": [
+        "read",
+        "export"
+    ],
+    "aclActionLevelListMap": {
+        "read": [
+            "all",
+            "own",
+            "no"
+        ],
+        "export": [
+            "all",
+            "own",
+            "no"
+        ]
+    },
+    "module": "Custom",
+    "customizable": false
+}

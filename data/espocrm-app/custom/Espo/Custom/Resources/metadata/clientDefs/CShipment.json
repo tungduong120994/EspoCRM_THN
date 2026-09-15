@@ -31,5 +31,380 @@
             "iconClass": "fas fa-plus"
         }
     ],
-    "kanbanViewMode": false
+    "kanbanViewMode": false,
+    "dynamicLogic": {
+        "fields": {
+            "unitDeliveryPriceVnd": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "isEmpty",
+                            "attribute": "deliveryPricingMode"
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "equals",
+                                    "attribute": "workflowStatus",
+                                    "value": "confirmed"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "workflowStatus",
+                                    "value": "cancelled"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "unitDeliveryPricePerKgVnd": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "equals",
+                                    "attribute": "deliveryPricingMode",
+                                    "value": "weight"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "deliveryPricingMode",
+                                    "value": "volume"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "deliveryPricingMode",
+                                    "value": "higher"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "required": {
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "equals",
+                                    "attribute": "deliveryPricingMode",
+                                    "value": "weight"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "deliveryPricingMode",
+                                    "value": "higher"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "equals",
+                                    "attribute": "workflowStatus",
+                                    "value": "confirmed"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "workflowStatus",
+                                    "value": "cancelled"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "unitDeliveryPricePerM3Vnd": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "equals",
+                                    "attribute": "deliveryPricingMode",
+                                    "value": "weight"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "deliveryPricingMode",
+                                    "value": "volume"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "deliveryPricingMode",
+                                    "value": "higher"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "required": {
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "equals",
+                                    "attribute": "deliveryPricingMode",
+                                    "value": "volume"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "deliveryPricingMode",
+                                    "value": "higher"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "equals",
+                                    "attribute": "workflowStatus",
+                                    "value": "confirmed"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "workflowStatus",
+                                    "value": "cancelled"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "appliedDeliveryPricingBasis": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "equals",
+                                    "attribute": "deliveryPricingMode",
+                                    "value": "weight"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "deliveryPricingMode",
+                                    "value": "volume"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "deliveryPricingMode",
+                                    "value": "higher"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "deliveryPriceByWeightVnd": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "equals",
+                                    "attribute": "deliveryPricingMode",
+                                    "value": "weight"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "deliveryPricingMode",
+                                    "value": "volume"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "deliveryPricingMode",
+                                    "value": "higher"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "deliveryPriceByVolumeVnd": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "equals",
+                                    "attribute": "deliveryPricingMode",
+                                    "value": "weight"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "deliveryPricingMode",
+                                    "value": "volume"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "deliveryPricingMode",
+                                    "value": "higher"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "paid": {
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "isNotEmpty",
+                            "attribute": "workflowStatus"
+                        }
+                    ]
+                }
+            },
+            "account": {
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "equals",
+                                    "attribute": "workflowStatus",
+                                    "value": "confirmed"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "workflowStatus",
+                                    "value": "cancelled"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "order": {
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "equals",
+                                    "attribute": "workflowStatus",
+                                    "value": "confirmed"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "workflowStatus",
+                                    "value": "cancelled"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "additionalOrders": {
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "equals",
+                                    "attribute": "workflowStatus",
+                                    "value": "confirmed"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "workflowStatus",
+                                    "value": "cancelled"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "deliveryPricingMode": {
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "equals",
+                                    "attribute": "workflowStatus",
+                                    "value": "confirmed"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "workflowStatus",
+                                    "value": "cancelled"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "additionalAmountVnd": {
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "equals",
+                                    "attribute": "workflowStatus",
+                                    "value": "confirmed"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "workflowStatus",
+                                    "value": "cancelled"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "surcharge": {
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "equals",
+                                    "attribute": "workflowStatus",
+                                    "value": "confirmed"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "workflowStatus",
+                                    "value": "cancelled"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    }
 }

@@ -72,6 +72,14 @@ class OrderTotalsCalculator
         $order->set('totalOrderValueVnd', $totalOrderValueVnd);
 
         $serviceFeePercent = (float) ($order->get('serviceFeeVndPercent') ?? 0);
+        // The existing fraction remains unchanged for historical records. The new
+        // optional input uses whole percent (1.5 means 1.5%, not 150%).
+        if ($order->get('serviceFeeRatePercent') !== null) {
+            $rate = $order->get('serviceFeeRatePercent');
+            \Espo\Custom\Services\Logistics\Money::percent(0, $rate);
+            $serviceFeePercent = (float) $rate / 100;
+            $order->set('serviceFeeVndPercent', $serviceFeePercent);
+        }
         $order->set(
             'serviceFeeVnd',
             $this->computeServiceFeeVnd($totalOrderValueVnd, $serviceFeePercent)
@@ -93,6 +101,14 @@ class OrderTotalsCalculator
                 $additionalAmountVnd
             )
         );
+        $declaredFees = \Espo\Custom\Services\Logistics\OrderFees::apply($order);
+        if ($order->get('formalImport')) {
+            $order->set('grandTotalPriceVnd', (float) $order->get('grandTotalPriceVnd') + $declaredFees);
+        } else {
+            foreach (['entrustmentVnd', 'importTaxVnd', 'vatVnd', 'declaredFeesVnd'] as $field) {
+                $order->set($field, 0.0);
+            }
+        }
     }
 
     private function convertToVnd(?float $totalOrderValueCny, float $exchangeRate): ?float

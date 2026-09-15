@@ -1,5 +1,16 @@
 {
-  "labels": {
-    "Create CParcel": "Créer un Parcel"
-  }
+    "labels": {
+        "Create CParcel": "Créer un Parcel",
+        "DeclaredFees": "Phí khai báo",
+        "ShipmentWorkflow": "Phiếu xuất kho và thanh toán",
+        "WarehouseDates": "Ngày nhập / giao / hoàn"
+    },
+    "tooltips": {
+        "totalDeliveryPriceVnd": "Chaque colis utilise la même unité que le lot, y compris en mode automatique."
+    },
+    "fields": {
+        "createdAt": "Ngày nhập mã (kho VN)",
+        "deliveredAt": "Ngày giao khách gần nhất",
+        "returnedAt": "Ngày hoàn kho gần nhất"
+    }
 }

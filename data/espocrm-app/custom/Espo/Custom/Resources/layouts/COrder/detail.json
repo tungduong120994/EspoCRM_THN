@@ -46,12 +46,17 @@
             ],
             [
                 {
-                    "name": "serviceFeeVndPercent"
+                    "name": "serviceFeeRatePercent"
                 },
                 {
                     "name": "serviceFeeVnd"
                 },
                 false
+            ],
+            [
+                {
+                    "name": "status"
+                }
             ]
         ],
         "dynamicLogicVisible": null,
@@ -60,6 +65,56 @@
         "hidden": false,
         "noteText": null,
         "customLabel": "Logistics"
+    },
+    {
+        "label": "DeclaredFees",
+        "style": "default",
+        "rows": [
+            [
+                {
+                    "name": "formalImport"
+                },
+                {
+                    "name": "declaredValueVnd"
+                }
+            ],
+            [
+                {
+                    "name": "documentFeeVnd"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "entrustmentPercent"
+                },
+                {
+                    "name": "entrustmentVnd"
+                }
+            ],
+            [
+                {
+                    "name": "importTaxPercent"
+                },
+                {
+                    "name": "importTaxVnd"
+                }
+            ],
+            [
+                {
+                    "name": "vatPercent"
+                },
+                {
+                    "name": "vatVnd"
+                }
+            ],
+            [
+                {
+                    "name": "declaredFeesVnd"
+                },
+                false
+            ]
+        ]
     },
     {
         "rows": [

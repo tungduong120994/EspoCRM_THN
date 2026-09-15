@@ -36,5 +36,24 @@
         ],
         "style": "default",
         "label": "Overview"
+    },
+    {
+        "label": "WarehouseDates",
+        "rows": [
+            [
+                {
+                    "name": "createdAt"
+                },
+                {
+                    "name": "deliveredAt"
+                }
+            ],
+            [
+                {
+                    "name": "returnedAt"
+                },
+                false
+            ]
+        ]
     }
 ]

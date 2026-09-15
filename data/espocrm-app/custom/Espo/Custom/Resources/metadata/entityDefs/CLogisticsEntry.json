@@ -1,0 +1,93 @@
+{
+    "fields": {
+        "name": {
+            "type": "varchar",
+            "maxLength": 255,
+            "readOnly": true
+        },
+        "account": {
+            "type": "link",
+            "readOnly": true
+        },
+        "createdAt": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "createdBy": {
+            "type": "link",
+            "readOnly": true
+        },
+        "kind": {
+            "type": "enum",
+            "options": [
+                "receipt",
+                "openingCredit",
+                "openingDebit",
+                "allocation",
+                "release",
+                "returnCredit"
+            ],
+            "readOnly": true
+        },
+        "amountVnd": {
+            "type": "currency",
+            "onlyDefaultCurrency": true,
+            "isCustom": true,
+            "readOnly": true
+        },
+        "shipment": {
+            "type": "link",
+            "readOnly": true
+        },
+        "receipt": {
+            "type": "link",
+            "readOnly": true
+        },
+        "reason": {
+            "type": "text",
+            "readOnly": true
+        },
+        "trackingSnapshot": {
+            "type": "text",
+            "readOnly": true
+        },
+        "amountVndCurrency": {
+            "type": "enum",
+            "default": "VND",
+            "options": [
+                "VND"
+            ],
+            "readOnly": true
+        }
+    },
+    "links": {
+        "account": {
+            "type": "belongsTo",
+            "entity": "Account"
+        },
+        "createdBy": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "shipment": {
+            "type": "belongsTo",
+            "entity": "CShipment"
+        },
+        "receipt": {
+            "type": "belongsTo",
+            "entity": "CLogisticsEntry"
+        }
+    },
+    "collection": {
+        "orderBy": "createdAt",
+        "order": "desc"
+    },
+    "indexes": {
+        "accountCreated": {
+            "columns": [
+                "accountId",
+                "createdAt"
+            ]
+        }
+    }
+}

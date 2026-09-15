@@ -1,0 +1,73 @@
+{
+    "fields": {
+        "name": {
+            "type": "varchar",
+            "maxLength": 255,
+            "readOnly": true
+        },
+        "account": {
+            "type": "link",
+            "readOnly": true
+        },
+        "createdAt": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "createdBy": {
+            "type": "link",
+            "readOnly": true
+        },
+        "parcel": {
+            "type": "link",
+            "readOnly": true
+        },
+        "shipment": {
+            "type": "link",
+            "readOnly": true
+        },
+        "kind": {
+            "type": "enum",
+            "options": [
+                "delivered",
+                "cancelled",
+                "unlinked",
+                "returned"
+            ],
+            "readOnly": true
+        },
+        "reason": {
+            "type": "text",
+            "readOnly": true
+        }
+    },
+    "links": {
+        "account": {
+            "type": "belongsTo",
+            "entity": "Account"
+        },
+        "createdBy": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "shipment": {
+            "type": "belongsTo",
+            "entity": "CShipment"
+        },
+        "parcel": {
+            "type": "belongsTo",
+            "entity": "CParcel"
+        }
+    },
+    "collection": {
+        "orderBy": "createdAt",
+        "order": "desc"
+    },
+    "indexes": {
+        "accountCreated": {
+            "columns": [
+                "accountId",
+                "createdAt"
+            ]
+        }
+    }
+}

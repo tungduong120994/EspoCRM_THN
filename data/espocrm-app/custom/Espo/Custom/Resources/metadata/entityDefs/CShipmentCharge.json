@@ -1,0 +1,77 @@
+{
+    "fields": {
+        "name": {
+            "type": "varchar",
+            "maxLength": 255,
+            "readOnly": true
+        },
+        "account": {
+            "type": "link",
+            "readOnly": true
+        },
+        "createdAt": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "createdBy": {
+            "type": "link",
+            "readOnly": true
+        },
+        "shipment": {
+            "type": "link",
+            "readOnly": true
+        },
+        "order": {
+            "type": "link",
+            "readOnly": true
+        },
+        "amountVnd": {
+            "type": "currency",
+            "onlyDefaultCurrency": true,
+            "isCustom": true,
+            "readOnly": true
+        },
+        "active": {
+            "type": "bool",
+            "readOnly": true
+        },
+        "amountVndCurrency": {
+            "type": "enum",
+            "default": "VND",
+            "options": [
+                "VND"
+            ],
+            "readOnly": true
+        }
+    },
+    "links": {
+        "account": {
+            "type": "belongsTo",
+            "entity": "Account"
+        },
+        "createdBy": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "shipment": {
+            "type": "belongsTo",
+            "entity": "CShipment"
+        },
+        "order": {
+            "type": "belongsTo",
+            "entity": "COrder"
+        }
+    },
+    "collection": {
+        "orderBy": "createdAt",
+        "order": "desc"
+    },
+    "indexes": {
+        "accountCreated": {
+            "columns": [
+                "accountId",
+                "createdAt"
+            ]
+        }
+    }
+}

@@ -1,5 +1,48 @@
 {
-  "labels": {
-    "Create CShipment": "Créer un Shipment"
-  }
+    "labels": {
+        "Create CShipment": "Créer un Shipment",
+        "DeclaredFees": "Phí khai báo",
+        "ShipmentWorkflow": "Phiếu xuất kho và thanh toán",
+        "WarehouseDates": "Ngày nhập / giao / hoàn"
+    },
+    "fields": {
+        "deliveryPricingMode": "Calcul du transport",
+        "appliedDeliveryPricingBasis": "Unité appliquée",
+        "unitDeliveryPricePerKgVnd": "Tarif par kg (VND)",
+        "unitDeliveryPricePerM3Vnd": "Tarif par m³ (VND)",
+        "deliveryPriceByWeightVnd": "Transport au poids (VND)",
+        "deliveryPriceByVolumeVnd": "Transport au volume (VND)",
+        "workflowStatus": "Trạng thái phiếu",
+        "confirmedAt": "Ngày xác nhận",
+        "cancelledAt": "Ngày hủy",
+        "additionalOrders": "Các đơn bổ sung",
+        "postedAmountVnd": "Giá trị phiếu đã chốt (VND)",
+        "paidAmountVnd": "Đã phân bổ thanh toán (VND)",
+        "outstandingAmountVnd": "Phiếu còn nợ (VND)",
+        "oldBalanceSnapshotVnd": "Công nợ cũ lúc lập phiếu (VND)",
+        "requestedTotalSnapshotVnd": "Tổng đề nghị thanh toán lúc lập phiếu (VND)"
+    },
+    "options": {
+        "deliveryPricingMode": {
+            "": "Non sélectionné (calcul existant)",
+            "weight": "Au poids (kg)",
+            "volume": "Au volume (m³)",
+            "higher": "Automatique : montant le plus élevé"
+        },
+        "appliedDeliveryPricingBasis": {
+            "": "",
+            "weight": "kg",
+            "volume": "m³"
+        },
+        "workflowStatus": {
+            "": "Phiếu cũ",
+            "draft": "Nháp",
+            "confirmed": "Đã xác nhận",
+            "cancelled": "Đã hủy"
+        }
+    },
+    "tooltips": {
+        "deliveryPricingMode": "Compare le poids total × tarif/kg et le volume total × tarif/m³ de tout le lot. Les deux mesures sont conservées. Sans sélection, le calcul existant est conservé. Une mesure absente vaut zéro, sans substitution.",
+        "totalDeliveryPriceVnd": "Transport du lot selon le mode choisi. Le mode automatique retient le montant le plus élevé pour tout le lot."
+    }
 }

@@ -6,7 +6,12 @@
             "Investor": "Nhà đầu tư",
             "Partner": "Đối tác",
             "Reseller": "Đại lý",
-            "a": "a"
+            "a": "a",
+            "company": "Công ty cung cấp",
+            "marketing": "Marketing",
+            "sales": "Tự khai thác",
+            "marketing-transferred": "Marketing - Được bàn giao lại",
+            "sales-transferred": "Tự khai thác - Được bàn giao lại"
         }
     }
 }
