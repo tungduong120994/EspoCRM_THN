@@ -1,5 +1,14 @@
 # UAT deployment — 2026-09-11
 
+## Latest baseline — 2026-09-16 12:31 UTC
+
+At the user's request, UAT was refreshed again from current production after
+backing up its previous state. See [baseline refresh report](REFRESH-20260916.md).
+This supersedes the test-user and snapshot-date details in earlier sections:
+production users/roles are now retained with UAT-only passwords, plus uat-admin;
+the previous three dedicated test users are archived with the old UAT backup.
+The UAT DB memory cap is now 768 MiB; the app remains capped at 512 MiB / 0.5 CPU.
+
 ## Update — 2026-09-16
 
 DNS now resolves `crm-uat.thnglobal.vn` to `103.90.226.80`. Public HTTPS is

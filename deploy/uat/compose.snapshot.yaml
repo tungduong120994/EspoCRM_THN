@@ -3,7 +3,7 @@ services:
   db:
     image: mariadb:11.3
     restart: unless-stopped
-    mem_limit: 512m
+    mem_limit: 768m
     cpus: 0.5
     environment:
       MARIADB_ROOT_PASSWORD: ${UAT_DB_ROOT_PASSWORD:?required}
