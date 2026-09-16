@@ -1,7 +1,8 @@
 # Logistics and customer balances — 2026-09-14
 
-Source work only. No deployment or production data/permission changes authorized
-for this stage. Earlier Lead name and shipment freight changes remain in place.
+The initial source-only stage has progressed to isolated UAT after DNS was supplied
+on 2026-09-16. See [live verification](../deploy/uat/VERIFIED-20260916.md).
+Production application/data/permissions remain unchanged.
 
 ## Confirmed by the user
 

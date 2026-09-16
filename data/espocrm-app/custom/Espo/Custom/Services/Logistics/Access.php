@@ -15,7 +15,12 @@ final class Access
     public function level(string $scope, string $action = 'read'): string
     {
         if ($this->user->isAdmin()) { return 'all'; }
-        if (!$this->acl->checkScope($scope, $action)) { throw new Forbidden(); }
+        // Export is a custom action level, not a built-in scope-checker action.
+        // Espo's default checker only implements read/create/edit/delete/stream.
+        if ($action === 'export') {
+            if (!$this->acl->checkScope($scope, 'read') ||
+                $this->acl->getPermissionLevel('export') !== 'yes') { throw new Forbidden(); }
+        } elseif (!$this->acl->checkScope($scope, $action)) { throw new Forbidden(); }
         $level = $this->acl->getLevel($scope, $action);
         if (!in_array($level, ['all', 'own'], true)) { throw new Forbidden(); }
         return $level;

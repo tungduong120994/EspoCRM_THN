@@ -1,5 +1,10 @@
 # Logistics UAT activation and acceptance
 
+Update 2026-09-16: isolated UAT deployment and several live checks are complete;
+see [dated results](../deploy/uat/VERIFIED-20260916.md). The original checklist
+below remains the acceptance reference, not a current statement that all work is
+pending. Interactive UI/PDF visual checks and historical reconciliation remain.
+
 Source preparation only. Do not execute against production. UAT deployment remains
 on hold until the user supplies DNS information. All runtime checks below remain
 pending; local unit tests are not a substitute for these checks.

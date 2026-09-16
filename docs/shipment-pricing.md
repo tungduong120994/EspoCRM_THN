@@ -1,7 +1,8 @@
 # Shipment freight calculation
 
-Source-only change; not deployed. Rebuild EspoCRM in UAT when available to add
-the new fields and refresh metadata. No backfill or production DB write is included.
+Deployed to isolated UAT on 2026-09-16, with schema/cache rebuild and live freight
+verification. See [results](../deploy/uat/VERIFIED-20260916.md). No backfill or
+production DB write is included.
 
 ## Behavior
 

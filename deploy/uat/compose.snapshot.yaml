@@ -1,0 +1,52 @@
+name: crm-uat
+services:
+  db:
+    image: mariadb:11.3
+    restart: unless-stopped
+    mem_limit: 512m
+    cpus: 0.5
+    environment:
+      MARIADB_ROOT_PASSWORD: ${UAT_DB_ROOT_PASSWORD:?required}
+      MARIADB_DATABASE: crm_uat
+      MARIADB_USER: crm_uat
+      MARIADB_PASSWORD: ${UAT_DB_PASSWORD:?required}
+    command: --event-scheduler=OFF --innodb-buffer-pool-size=128M --max-connections=50
+    volumes:
+      - db-data:/var/lib/mysql
+    networks: [database]
+    healthcheck:
+      test: [CMD, healthcheck.sh, --connect, --innodb_initialized]
+      interval: 10s
+      timeout: 5s
+      retries: 12
+  app:
+    image: espocrm/espocrm:9.2.5
+    restart: unless-stopped
+    mem_limit: 512m
+    cpus: 0.5
+    # The snapshot is already installed and sanitized offline. No installer/cron.
+    entrypoint: [docker-php-entrypoint]
+    command: [apache2-foreground]
+    depends_on:
+      db:
+        condition: service_healthy
+    volumes:
+      - ./app:/var/www/html
+    networks: [database, edge]
+    labels:
+      traefik.enable: "true"
+      traefik.docker.network: crm-uat_edge
+      traefik.http.routers.crm-uat.rule: Host(`${UAT_DOMAIN:?required}`)
+      traefik.http.routers.crm-uat.entrypoints: websecure
+      traefik.http.routers.crm-uat.tls: "true"
+      traefik.http.routers.crm-uat.tls.certresolver: le
+      traefik.http.routers.crm-uat.tls.domains[0].main: ${UAT_DOMAIN:?required}
+      traefik.http.routers.crm-uat.service: crm-uat
+      traefik.http.services.crm-uat.loadbalancer.server.port: "80"
+volumes:
+  db-data:
+networks:
+  database:
+    internal: true
+  edge:
+    internal: true

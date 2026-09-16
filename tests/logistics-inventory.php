@@ -30,7 +30,12 @@ namespace Espo\Entities {
 namespace Espo\Core {
     class Acl {
         public array $levels=['read'=>'own','export'=>'own','edit'=>'no'];
-        public function checkScope($scope,$action): bool { return ($this->levels[$action]??'no')!=='no'; }
+        public string $exportPermission = 'yes';
+        public function checkScope($scope,$action): bool {
+            if ($action === 'export') { throw new \LogicException('Export is not a built-in scope checker action'); }
+            return ($this->levels[$action]??'no')!=='no';
+        }
+        public function getPermissionLevel($permission): string { return $this->exportPermission; }
         public function getLevel($scope,$action): string { return $this->levels[$action]??'no'; }
         public function check($entity,$action): bool { return false; }
     }
@@ -84,6 +89,9 @@ namespace {
     denied(fn()=>$inventory->accounts($dates,'CInventory',true),Forbidden::class,'no-export permission enforced on server');
     $acl->levels['read']='own'; $acl->levels['export']='all';
     same($inventory->accounts($dates,'CInventory',true)['total'],2,'export-all does not bypass read-own');
+    $acl->exportPermission='no';
+    denied(fn()=>$inventory->accounts($dates,'CInventory',true),Forbidden::class,'global export denial overrides custom scope allowance');
+    $acl->exportPermission='yes';
     denied(fn()=>$inventory->accounts(['from'=>'2026-02-30']),BadRequest::class,'invalid calendar date rejected');
     denied(fn()=>$inventory->accounts(['from'=>'2026-09-16','to'=>'2026-09-15']),BadRequest::class,'reversed interval rejected');
     same($inventory->accounts(['q'=>"' OR 1=1 --"])['total'],0,'search text is bound as data');
